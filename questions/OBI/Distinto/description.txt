@@ -1,0 +1,53 @@
+Question in: https://olimpiada.ic.unicamp.br/static/extras/obi2023/provas/ProvaOBI2023_f2p2.pdf
+
+---
+
+Intervalo Distinto
+
+Você foi contratado pela Agência Extra-Espacial Brasileira, que procura indícios de vida extraterrestre.
+Um dos telescópios da Agência, para o espectro ultravioleta, gera uma sequência de valores inteiros 
+positivos que devem ser analisados diariamente. Sua primeira missão é determinar, na sequência gerada, 
+o tamanho do maior intervalo contínuo que contém apenas números distintos.
+
+Entrada
+A primeira linha contém um inteiro N, o número de elementos da sequência. Cada uma das linhas seguintes 
+contém um inteiro Ii, os elementos da sequência na ordem em que foram gerados.
+
+Saída
+Seu programa deve produzir uma única linha, contendo um único inteiro, o número de elementos do maior 
+intervalo que contém apenas números distintos.
+
+Restrições
+1≤N ≤105
+1≤Ii ≤105
+
+Exemplos
+
+Exemplo de entrada 1
+8
+3
+2
+1
+3
+2
+1
+3
+2
+Exemplo de saída 1
+3
+Explicação do exemplo 1: três intervalos, com três elementos cada, contêm números distintos: [3, 2, 1], 
+[2, 1, 3] e [1, 3, 2]– note também que os intervalos ocorrem mais de uma vez na sequência. Como não há 
+intervalo com números distintos maior do que esses, a resposta é 3.
+
+Exemplo de entrada 2
+6
+3
+2
+3
+8
+5
+5
+Exemplo de saída 2
+4
+Explicação do exemplo 2: o maior intervalo que contém números distintos é [2, 3, 8, 5], com 4 elementos, 
+portanto a resposta é 4
