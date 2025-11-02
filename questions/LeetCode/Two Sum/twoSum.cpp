@@ -22,7 +22,7 @@ public:
 };
 
 // Código testado e aprovado no LeetCode
-// Runtime: 0ms
+// Runtime: 0s
 // Memory Usage: 14.8MB
 
 // Link do problema: https://leetcode.com/problems/two-sum/

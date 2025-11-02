@@ -15,7 +15,7 @@ class Solution:
         return []
 
 # Código testado e aprovado no LeetCode
-# Runtime: 4069ms
+# Runtime: 4.069s
 # Memory Usage: 18.6MB
 
 # Link do problema: https://leetcode.com/problems/two-sum/

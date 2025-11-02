@@ -16,7 +16,7 @@ var twoSum = function(nums, target) {
 };
 
 // Código testado e aprovado no LeetCode
-// Runtime: 0ms
+// Runtime: 0s
 // Memory Usage: 58.64MB
 
 // Link do problema: https://leetcode.com/problems/two-sum/
