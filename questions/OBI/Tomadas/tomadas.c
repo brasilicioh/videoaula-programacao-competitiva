@@ -4,12 +4,12 @@
 #include <stdlib.h>
 
 int main() {
-    int sum = 0, num;
+    int sum = 0, t;
 
     for (int i = 0; i < 4; i++)
     {
-        scanf("%d", &num);
-        sum = sum + num;
+        scanf("%d", &t);
+        sum = sum + t;
     }
 
     sum = sum - 3;
