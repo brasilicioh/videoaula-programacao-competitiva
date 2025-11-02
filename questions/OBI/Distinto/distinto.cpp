@@ -17,13 +17,13 @@ int main() {
     std::unordered_set<int> interval;
     int maxInterval = 0, start = 0;
 
-    for (int i = 0; i < n; i++) {
-        while (interval.count(I[i])) {
+    for (int end = 0; end < n; end++) {
+        while (interval.count(I[end])) {
             interval.erase(I[start]);
             start++;
         }
-        interval.insert(I[i]);
-        maxInterval = std::max(maxInterval, i - start + 1);
+        interval.insert(I[end]);
+        maxInterval = std::max(maxInterval, end - start + 1);
     }
 
     std::cout << maxInterval << "\n";
@@ -31,4 +31,4 @@ int main() {
 }
 
 // Código testado e aprovado com corretor automático usando: https://github.com/brasilicioh/Solucoes-OBI/
-// Max runtime: 0.029s
+// Max runtime: 0.03s

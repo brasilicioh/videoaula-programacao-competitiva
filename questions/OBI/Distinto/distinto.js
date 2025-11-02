@@ -1,23 +1,24 @@
 // Feito por Brasilicio Henrique
 
-var n, num;
+var n;
 scanf("%d", "n");
 
-var numeros = [];
+var I = [], num;
 for (var i = 0; i < n; i++) {
     scanf("%d", "num");
-    numeros.push(num);
+    I.push(num);
 }
 
-var intervalo = new Set();
-var inicioInterval = 0, maxInterval = 0;
-for (var fimInterval = 0; fimInterval < n; fimInterval++) {
-    while (intervalo.has(numeros[fimInterval])) {
-        intervalo.delete(numeros[inicioInterval]);
-        inicioInterval++;
+var interval = new Set();
+var start = 0, maxInterval = 0;
+
+for (var end = 0; end < n; end++) {
+    while (interval.has(I[end])) {
+        interval.delete(I[start]);
+        start++;
     }
-    intervalo.add(numeros[fimInterval]);
-    maxInterval = Math.max(maxInterval, fimInterval - inicioInterval + 1);
+    interval.add(I[end]);
+    maxInterval = Math.max(maxInterval, end - start + 1);
 }
 
 printf("%d\n", maxInterval);
