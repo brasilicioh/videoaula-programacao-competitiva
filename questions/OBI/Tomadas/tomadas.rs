@@ -1,3 +1,5 @@
+// Feito por Guilherme ALeixo
+
 fn main() {
     let mut line = String::new();
 
@@ -14,4 +16,5 @@ fn main() {
     println!("{result}");
 }
 
-// Código não testado com o corretor automático
+// Código testado e aprovado com corretor automático usando: https://github.com/brasilicioh/Solucoes-OBI/
+// Max runtime: 0.018s

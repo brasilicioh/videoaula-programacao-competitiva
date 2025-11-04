@@ -1,3 +1,5 @@
+// Feito por Guilherme Aleixo
+
 use std::collections::HashSet;
 
 fn main() {
@@ -37,4 +39,5 @@ fn main() {
     println!("{max_interval}");
 }
 
-// Código não testado com o corretor automático
+// Código testado e aprovado com corretor automático usando: https://github.com/brasilicioh/Solucoes-OBI/
+// Max runtime: 0.039s;

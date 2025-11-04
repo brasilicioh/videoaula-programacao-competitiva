@@ -1,3 +1,5 @@
+// Feito por Guilherme Aleixo
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -53,4 +55,5 @@ int main() {
     return 0;
 }
 
-// Código não testado com o corretor automático
+// Código testado e aprovado com corretor automático usando: https://github.com/brasilicioh/Solucoes-OBI/
+// Max runtime: 0.11s
