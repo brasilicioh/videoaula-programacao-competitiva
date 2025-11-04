@@ -1,14 +1,18 @@
 from moviepy.editor import *
+import moviepy.config as conf
+
+# baixar ImageMagick e confirmar que o executavel esta no mesmo caminho abaixo
+conf.change_settings({"IMAGEMAGICK_BINARY": r"C:\Program Files\ImageMagick-7.1.2-Q16-HDRI\magick.exe"}) 
 
 tempo = 18.0
 video_size = (1080, 720)
 
-audio_clip = AudioFileClip("sound\\saida_audio.mp3")
+audio_clip = AudioFileClip(r"sound\saida_audio.mp3")
 
-bg_clip = ImageClip("img\\background\\bedroom.png").set_duration(tempo).resize(video_size)
+bg_clip = ImageClip(r"img\background\bedroom.png").set_duration(tempo).resize(video_size)
 
-char1 = ImageClip("img\\background\\wall.png").resize(height=video_size[1] * 0.4).set_position(("center", "center"))
-char2 = ImageClip("img\\background\\school.png").resize(height=video_size[1] * 0.4).set_position(("center", "center"))
+char1 = ImageClip(r"img\background\wall.png").resize(height=video_size[1] * 0.4).set_position(("center", "center"))
+char2 = ImageClip(r"img\background\school.png").resize(height=video_size[1] * 0.4).set_position(("center", "center"))
 
 # Clip 1: Personagem 1 (Começa em 0s, dura 6s)
 char_clip1 = char1.set_duration(6).set_start(0.0)
@@ -17,7 +21,7 @@ char_clip2 = char2.set_duration(6).set_start(6)
 # Clip 3: Personagem 1 (Começa em 12s, dura 6s)
 char_clip3 = char1.set_duration(6).set_start(12)
 
-textos_legendas = [f"Legenda {i+1}" for i in range(6)]
+textos_legendas = [f"Texto {i}" for i in range(6)]
 
 font_size = 40
 font_color = 'white'
@@ -40,7 +44,6 @@ for i, texto in enumerate(textos_legendas):
         stroke_color=stroke_color,
         stroke_width=stroke_width,
         size=(video_size[0] * 0.8, None), # Largura max de 80% do vídeo
-        method='caption' # Faz o texto quebrar a linha automaticamente
     )
     
     legenda_clip = legenda_clip.set_start(start_time).set_duration(duracao_por_legenda)
