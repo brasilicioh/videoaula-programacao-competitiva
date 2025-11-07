@@ -1,3 +1,7 @@
+# por enquanto arquivo de rascunho
+
+# no final, main.py vai concatenar clips\* em um únivo arquivo "videoaula.mp4" no mesmo nível desse arquivo main.py
+
 from moviepy.editor import *
 import moviepy.config as conf
 
