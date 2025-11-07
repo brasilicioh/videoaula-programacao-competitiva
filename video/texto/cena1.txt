@@ -1,6 +1,6 @@
 1.txt
 # Apresentação do Tema
 Olá, eu me chamo Scratch!
-Nessa videoaula iremos falar sobre Programação Competitiva
+Nessa videoaula irei falar sobre Programação Competitiva
 A programação competitiva é um esporte que envolve resolver problemas lógicos, matemáticos e computacionais.
 Com objetivo de criar algoritmos eficientes que resolvam esses problemas.
