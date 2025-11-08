@@ -1,4 +1,4 @@
-7.txt
+8.txt
 # <Inserir título dps>
 Lembra daquela questão que mostrei no início do vídeo? Ela é da OBI de 2013, primeira fase, nível júnior.
 Bem, ela não é tão difícil, como você pôde ver, em python ela foi feita em apenas duas linhas! 

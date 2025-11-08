@@ -1,9 +1,9 @@
-9.txt
+10.txt
 # Fim
-No decorrer da aula aprendemos muitas coisas como o que é programação competitiva e como funciona.
+No decorrer da aula aprendemos muitas coisas; Como: o que é e como funciona a programação competitiva
 Em resumo, a programação competitiva não é nada mais nada menos que um esporte que testa seu raciocínio lógico na construção de linhas de código.
 Muitas das vantagens de praticar esse esporte são as melhorias dos raciocínios lógicos, matemáticos e computacionais;
 além de aprimorar suas habilidades na construção de algoritmos.
-A programação competitiva não se resume apenas a fazer códigos — trata-se de lógica, criatividade e na diversão em resolver problemas.
+A programação competitiva não se resume apenas a fazer códigos — trata-se também de lógica, criatividade e na diversão em resolver problemas.
 Espero que você tenha gostado dessa videoaula;
 e também espero que você também tenha se interessado por esse esporte.
