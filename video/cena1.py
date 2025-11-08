@@ -1,17 +1,9 @@
-from moviepy.editor import *
-import moviepy.config as conf
-from moviepy.audio.AudioClip import CompositeAudioClip
 from moviepy.video.tools.subtitles import SubtitlesClip
-
-# método padrão para inicializar gato
-def cat_clip(name: str, start: float, duration: float) -> ImageClip:
-    cat: ImageClip = ImageClip(f"img/character/{name}.png") \
-        .set_start(start) \
-        .set_duration(duration) \
-        .set_position(("center", "center"))
-    return cat
+from moviepy.editor import ColorClip, AudioFileClip, TextClip, CompositeVideoClip, CompositeAudioClip
+from clips import cat_clip, img_clip
 
 # necessário para utilizar legendas; confirme se o caminho do computador é esse
+import moviepy.config as conf
 conf.change_settings({"IMAGEMAGICK_BINARY": "C:/Program Files/ImageMagick-7.1.2-Q16-HDRI/magick.exe"})
 
 # tamanho constante de todas telas da videoaula
@@ -25,44 +17,22 @@ white_background = ColorClip(SCREEN_SIZE, color=(255, 255, 255)) \
     .set_duration(1)
 
 # fundo de quarto: primeiro background
-room_background = ImageClip("img/background/bedroom.png") \
-    .resize(SCREEN_SIZE) \
-    .set_start(1) \
-    .set_duration(19)
+room_background = img_clip("img/background/bedroom.png", SCREEN_SIZE, 1, 19, (0,0))
 
 # gatos que aparecem na cena
-cat1 = cat_clip("cat1", 2.5, 4).fadein(1)
-cat2 = cat_clip("cat2", 6.5, 3.5)
-cat3 = cat_clip("cat4", 10, 4)
+cat1 = cat_clip("cat1", 2.5, 3).crossfadein(1)
+cat2 = cat_clip("cat2", 5.5, 4.3)
+cat3 = cat_clip("cat4", 9.8, 4.2)
 cat4 = cat_clip("cat2", 14, 6)
 
 # imagens utilizadas
-img1 = ImageClip("img/imgs/competitive-programming.png") \
-    .resize((500, 500)) \
-    .set_start(10.3) \
-    .set_duration(5.5) \
-    .set_position((1400, 400)) \
+img1 = img_clip("img/imgs/competitive-programming.png", (500, 500), 10.3, 5.5, (1400, 400)) \
     .crossfadein(0.4).crossfadeout(0.4)
-
-img2 = ImageClip("img/imgs/raciociocio_logico.jpg") \
-    .resize((420, 260)) \
-    .set_start(12.5) \
-    .set_duration(3.5) \
-    .set_position((50, 20)) \
+img2 = img_clip("img/imgs/raciociocio_logico.jpg", (420, 260), 13, 3, (50, 20)) \
     .crossfadeout(0.4)
-
-img3 = ImageClip("img/imgs/matematica.jpeg") \
-    .resize((360, 260)) \
-    .set_start(13.8) \
-    .set_duration(2.2) \
-    .set_position((120, 290)) \
+img3 = img_clip("img/imgs/matematica.jpeg", (360, 260), 13.8, 2.2, (120, 290)) \
     .crossfadeout(0.4)
-
-img4 = ImageClip("img/imgs/sciencephile.jpg") \
-    .resize((330, 330)) \
-    .set_start(14.8) \
-    .set_duration(1.2) \
-    .set_position((120, 590)) \
+img4 = img_clip("img/imgs/sciencephile.jpg", (330, 330), 14.8, 1.2, (120, 590)) \
     .crossfadeout(0.4)
 
 # audio da cena

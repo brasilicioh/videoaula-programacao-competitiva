@@ -12,9 +12,9 @@ A programação competitiva é um esporte que envolve resolver
 problemas lógicos, matemáticos e computacionais.
 
 4
-00:00:15,700 --> 00:00:17,800
-Com objetivo de criar algoritmos eficientes
+00:00:15,700 --> 00:00:19,700
+Com objetivo de criar algoritmos eficientes que resolvam esses problemas.
 
 5
-00:00:18,200 --> 00:00:19,300
-que resolvam esses problemas.
+00:00:19,700 --> 00:00:21,000
+.
