@@ -6,7 +6,7 @@ SCREEN_SIZE = (1920, 1080)
 
 def subtitle_clip(name: str) -> SubtitlesClip:
     return (
-        SubtitlesClip(f"text/srt/{name}.srt", generator_text)
+        SubtitlesClip(f"text/srt/{name}.srt", make_textclip=generator_text, encoding="utf-8")
         .with_position(("center", SCREEN_SIZE[1] - 130))
     )
 
@@ -45,9 +45,9 @@ def video_clip(clips: list, audio: CompositeAudioClip) -> CompositeVideoClip:
     )
 
 generator_text = lambda txt: TextClip(
-    txt,
-    font="Arial Bold",
-    fontsize=54,
+    font="C:/Windows/Fonts/arial.ttf",
+    text = txt,
+    font_size=54,
     color="white",
     stroke_color="black",
     stroke_width=2,
