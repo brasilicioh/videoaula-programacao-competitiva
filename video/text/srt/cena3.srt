@@ -1,68 +1,99 @@
 1
-Os competidores recebem vários problemas e devem resolvê-los com
+00:00:00,500 --> 00:00:03,700
+Os competidores recebem vários problemas e devem resolver eles
 
 2
-linhas de código da forma mais rápida e eficiente possível
+00:00:03,701 --> 00:00:07.150
+com linhas de código da forma mais rápida e eficiente possível
 
 3
-O seu código, baseado em "entradas-teste" (inputs) já predefinidas
+00:00:07,800 --> 00:00:10.000
+O seu código, baseado em "entradas-teste" (inputs) já
 
 4
-deve processar os dados e demonstrar uma "saída-teste" (outputs) 
+00:00:10.001 --> 00:00:13.000
+predefinidas, deve processar os dados e demonstrar uma 
 
 5
-para tal processamento de cada entrada
+00:00:13.001 --> 00:00:15.900
+"saída-teste" (outputs) para tal processamento de cada entrada
 
 6
-Em um ambiente virtual, o mesmo deve submeter o arquivo; após isso 
+00:00:16.400 --> 00:00:19.300
+Em um ambiente virtual, o mesmo deve submeter o arquivo
 
 7
-uma máquina virtual executa o código com vários inputs e depois
+00:00:19.500 --> 00:00:22.100
+após isso, uma máquina virtual executa o código com
 
 8
-compara a saída do código com o output correto
+00:00:22.101 --> 00:00:24.650
+vários inputs e depois compara a saída do código
 
 9
-Após verificação, o código pode ter sido feito corretamente, acertado
+00:00:24.651 --> 00:00:26.300
+com o output correto
 
 10
-em só alguns inputs - o que faz a questão ser considerada incorreta
+00:00:26.800 --> 00:00:30.400
+Após verificação, o código pode ter sido feito corretamente
 
 11
-na maioria das competições, ou até mesmo ter passado do tempo
+00:00:30.400 --> 00:00:34.450
+acertado em só alguns inputs - o que faz a questão
 
 12
-limite de execução definido na questão
+00:00:34.451 --> 00:00:36.700
+ser considerada incorreta na maioria das competições
 
 13
-Mesmo se o competidor estiver errado, ele pode
+00:00:37.100 --> 00:00:38.900
+ou até mesmo ter passado do tempo limite de
 
 14
-submeter arquivos de código quantas vezes quiser.
+00:00:38.901 --> 00:00:40.200
+execução definido na questão
 
 15
-Ganha a competição aquele que resolver o máximo de 
+00:00:40.500 --> 00:00:43.250
+Mas, mesmo se o competidor estiver errado, ele pode
 
 16
-problemas possíveis no tempo de prova
+00:00:43.251 --> 00:00:46.000
+submeter arquivos de código quantas vezes quiser
 
 17
-Em casos de empate ganha quem tiver feito mais rapidamente 
+00:00:46.100 --> 00:00:48.750
+Ganha a competição aquele que resolver o máximo de 
 
 18
-e com menor quantidade de "respostas erradas"
+00:00:48.751 --> 00:00:50.640
+problemas possíveis no tempo de prova
 
 19
-Algo interessante das competições, é que o competidor pode enviar 
+00:00:51.200 --> 00:00:54.300
+Em casos de empate, ganha quem tiver feito mais rapidamente 
 
 20
-quantas respostas quiser; e só vai contar a de maior pontuação
+00:00:54.301 --> 00:00:56.700
+e com menor quantidade de "respostas erradas"
 
 21
-Outra coisa legal é que eles descobrem se acertaram totalmente
+00:00:57.200 --> 00:01:00,500
+Algo interessante das competições, é que o competidor pode enviar 
 
 22
-parcialmente ou nada logo após enviar o arquivo do código!
+00:01:00,501 --> 00:01:04,450
+quantas respostas quiser; e só vai contar a de maior pontuação
 
 23
+00:01:04,600 --> 00:01:07,600
+Outra coisa legal é que eles descobrem se acertaram totalmente
+
+24
+00:01:07,700 --> 00:01:10,800
+parcialmente ou nada logo após enviar o arquivo do código!
+
+25
+00:01:11,000 --> 00:01:12,000
 .

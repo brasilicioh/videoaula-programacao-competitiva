@@ -1,6 +1,43 @@
-4.txt
-# Exemplo de questão
-Mostrarei agora uma questão desse esporte. Caso se interesse, leia com atenção e tente pensar em como resolvê-la.
-Para resolver essa questão, basta você entender que o número de três das entradas será reduzido em um; após isso basta somar todos os valores.
-Mostraremos agora três soluções possíveis em três linguagens de programação diferentes: Python, C++ e C.
-O código em Python até pode ser o mais curto entre os três, mas não se deixe enganar por isso: as linguagens C e C++ são as mais usadas, pois são extremamente rápidas.
+1
+00:00:00,150 --> 00:00:02,300
+Mostrarei agora uma questão desse esporte
+
+2
+00:00:02,800 --> 00:00:05,490
+Caso tenha interesse, pause o vídeo leia com atenção e 
+
+3
+00:00:05,491 --> 00:00:07,000
+tente pensar em como resolvê-la
+
+4
+00:00:09,200 --> 00:00:11,800
+Para resolver essa questão, basta você entender que o 
+
+5
+00:00:11,801 --> 00:00:15,000
+número de três das entradas será reduzido em um; após 
+
+6
+00:00:15,001 --> 00:00:16,800
+isso basta somar todos os valores
+
+7
+00:00:17,500 --> 00:00:20,400
+Mostraremos agora cinco soluções possíveis em cinco linguagens
+
+8
+00:00:20,401 --> 00:00:24,000
+de programação diferentes: C, C++, JavaScript, Python e Rust
+
+9
+O código em Python até pode ser o mais curto entre os cinco
+
+10
+mas não se deixe enganar por isso: as linguagens C e C++ 
+
+11
+são as mais usadas, pois são extremamente rápidas
+
+12
+.

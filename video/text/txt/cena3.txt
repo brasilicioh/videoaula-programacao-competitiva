@@ -1,10 +1,10 @@
 3.txt
 # COMO FUNCIONA
-Os competidores recebem vários problemas e devem resolvê-los com linhas de código da forma mais rápida e eficiente possível.
+Os competidores recebem vários problemas e devem resolver eles com linhas de código da forma mais rápida e eficiente possível.
 O seu código, baseado em "entradas-teste" (inputs) já predefinidas, deve processar os dados e demonstrar uma "saída-teste" (outputs) para tal processamento de cada entrada.
 Em um ambiente virtual, o mesmo deve submeter o arquivo; após isso uma máquina virtual executa o código com vários inputs e depois compara a saída do código com o output correto.
 Após verificação, o código pode ter sido feito corretamente, acertado em só alguns inputs - o que faz a questão ser considerada incorreta na maioria das competições, ou até mesmo ter passado do tempo limite de execução limite definido na questão.
-Mesmo se o competidor estiver errado, ele pode submeter arquivos de código quantas vezes quiser.
+Mas mesmo se o competidor estiver errado, ele pode submeter arquivos de código quantas vezes quiser.
 Ganha a competição aquele que resolver o máximo de problemas possíveis no tempo de prova.
 Em casos de empate ganha quem tiver feito mais rapidamente e com menor quantidade de "respostas erradas".
 Algo interessante das competições, é que o competidor pode enviar quantas respostas quiser; e só vai contar a de maior pontuação.

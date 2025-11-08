@@ -16,7 +16,7 @@ resolver problemas lógicos, matemáticos e computacionais
 
 5
 00:00:15,700 --> 00:00:18,000
-Com objetivo de criar algoritmos eficientes
+Com o objetivo de criar algoritmos eficientes
 
 6
 00:00:18,001 - 00:00:19,600
