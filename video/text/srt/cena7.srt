@@ -1,15 +1,71 @@
-7.txt
-# <Inserir título dps>
-Lembra daquela questão que mostramos no início do vídeo? Ela é da OBI 2013, primeira fase, nível júnior.
-Bem, ela não é tão difícil, como você pôde ver, em python ela foi feita em apenas duas linhas! 
-Mostrarei agora mais uma questão da OBI; ela é mais recente e mais desafiadora.
-Intervalo Distinto é uma questão da prova de 2023, da fase 2A, nível 2. Dê um pause no vídeo, leia a questão e tente pensar como você faria ela.
+1
+Lembra daquela questão que mostramos no início do vídeo?
 
-Note que a explicação dessa questão é até menor que a anterior, mas implementá-la é bem mais desafiador.
-E lembrando: você tem que conseguir implementar um algoritmo que passe em todos testes em um tempo rápido.
-Abaixo, novamente, temos três respostas com três linguagens de programação diferentes: python, C++ e C.
-Cada código foi feito por um autor diferente dessa videoaula, assim como na primeira questão que mostramos.
+2
+Ela é da OBI de 2013, primeira fase, nível júnior
 
-Poderíamos tirar um tempo para explicar o que cada código faz;
-mas essa videoaula ficaria muito grande.
-Então, a tarefa de casa de vocês é: ler as questões, pensar na ideia de como resolver e depois tentar interpretar o que cada código faz.
+3
+Bem, ela não é tão difícil, como você pôde ver
+
+4
+em python ela foi feita em apenas duas linhas!
+
+5
+Mostrarei agora mais uma questão da OBI
+
+6
+Ela é mais recente e mais desafiadora
+
+7
+Intervalo Distinto é uma questão da prova de 2023
+
+8
+da fase 2A, nível 2
+
+9
+Dê um pause no vídeo, leia a questão e
+
+10
+tente pensar como você faria ela
+
+11
+Note que a descrição dessa questão é até menor que a anterior
+
+12
+mas implementar ela é bem mais desafiador
+
+13
+E lembrando: você tem que conseguir implementar um algoritmo
+
+14
+que passe em todos testes em um tempo rápido
+
+15
+Abaixo, novamente, temos cinco respostas com cinco linguagens
+
+16
+de programação diferentes: C, C++, JavaScript, Python e Rust
+
+17
+Cada código dessa questão e da questão anterior foram feitos
+
+18
+pelos autores dessa videoaula
+
+18
+Poderíamos tirar um tempo para explicar o que cada código faz
+
+19
+mas essa videoaula ficaria muito grande
+
+20
+Então, a tarefa de casa de vocês é: ler as questões, pensar
+
+21
+na ideia de como resolver e depois
+
+22
+tentar interpretar o que cada código faz
+
+23
+.

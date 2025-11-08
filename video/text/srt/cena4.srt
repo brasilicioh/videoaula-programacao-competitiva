@@ -4,7 +4,7 @@ Mostrarei agora uma questão desse esporte
 
 2
 00:00:02,800 --> 00:00:05,490
-Caso tenha interesse, pause o vídeo leia com atenção e 
+Caso tenha interesse, pause o vídeo leia com atenção e
 
 3
 00:00:05,491 --> 00:00:07,000
@@ -12,11 +12,11 @@ tente pensar em como resolvê-la
 
 4
 00:00:09,200 --> 00:00:11,800
-Para resolver essa questão, basta você entender que o 
+Para resolver essa questão, basta você entender que o
 
 5
 00:00:11,801 --> 00:00:15,000
-número de três das entradas será reduzido em um; após 
+número de três das entradas será reduzido em um; após
 
 6
 00:00:15,001 --> 00:00:16,800
@@ -34,10 +34,13 @@ de programação diferentes: C, C++, JavaScript, Python e Rust
 O código em Python até pode ser o mais curto entre os cinco
 
 10
-mas não se deixe enganar por isso: as linguagens C e C++ 
+mas não se deixe enganar por isso
 
 11
-são as mais usadas, pois são extremamente rápidas
+As linguagens C e C++ são as mais usadas
 
 12
+pois são extremamente rápidas
+
+13
 .

@@ -12,7 +12,7 @@ O seu código, baseado em "entradas-teste" (inputs) já
 
 4
 00:00:10.001 --> 00:00:13.000
-predefinidas, deve processar os dados e demonstrar uma 
+predefinidas, deve processar os dados e demonstrar uma
 
 5
 00:00:13.001 --> 00:00:15.900
@@ -64,7 +64,7 @@ submeter arquivos de código quantas vezes quiser
 
 17
 00:00:46.100 --> 00:00:48.750
-Ganha a competição aquele que resolver o máximo de 
+Ganha a competição aquele que resolver o máximo de
 
 18
 00:00:48.751 --> 00:00:50.640
@@ -72,7 +72,7 @@ problemas possíveis no tempo de prova
 
 19
 00:00:51.200 --> 00:00:54.300
-Em casos de empate, ganha quem tiver feito mais rapidamente 
+Em casos de empate, ganha quem tiver feito mais rapidamente
 
 20
 00:00:54.301 --> 00:00:56.700
@@ -80,7 +80,7 @@ e com menor quantidade de "respostas erradas"
 
 21
 00:00:57.200 --> 00:01:00,500
-Algo interessante das competições, é que o competidor pode enviar 
+Algo interessante das competições, é que o competidor pode enviar
 
 22
 00:01:00,501 --> 00:01:04,450

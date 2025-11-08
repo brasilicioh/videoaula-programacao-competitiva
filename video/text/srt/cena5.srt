@@ -1,12 +1,65 @@
-5.txt
-# Organizações internacionais e a SBC
-O esporte é monitorado e realizado por diversas organizações.
-Elas são responsáveis por criar, apoiar e promover muitas das competições de programação.
-Essas organizações reúnem pesquisadores, professores, estudantes e profissionais a fim de promover o avanço da ciência da computação, estimular a pesquisa e a inovação tecnológica, definir padrões e organizar eventos científicos e competições.
-Exemplos de organizações internacionais são: ACM (Association for Computing Machinery), IEEE Computer Society (Institute of Electrical and Electronics Engineers) e IFIP (International Federation for Information Processing).
-O Brasil também apresenta uma organização, ela é a SBC (Sociedade Brasileira de Computação).
-Ela é a principal entidade nacional da área de computação no Brasil.
-Foi fundada em 1978.
-Os principais objetivos da SBC são representar o Brasil em organizações internacionais como a IFIP;
-estimular o ensino de computação nas escolas e universidades;
-promover no Brasil eventos científicos e apoiar olimpíadas e competições como a OBI, a IOI e a Maratona da SBC.
+1
+O esporte é monitorado e realizado por diversas organizações
+
+2
+Elas são responsáveis por criar, apoiar e promover
+
+3
+muitas das competições de programação
+
+4
+Essas organizações reúnem pesquisadores, professores, estudantes
+
+5
+e profissionais a fim de promover o avanço da ciência da
+
+6
+computação, estimular a pesquisa e a inovação tecnológica
+
+7
+definir padrões e organizar eventos científicos e competições
+
+8
+Exemplos de organizações internacionais são:
+
+9
+ACM (Association for Computing Machinery)
+
+10
+IEEE Computer Society (Institute of Electrical and Electronics Engineers)
+
+11
+e IFIP (International Federation for Information Processing)
+
+12
+O Brasil também apresenta uma organização, ela é a
+
+13
+SBC (Sociedade Brasileira de Computação)
+
+15
+Ela é a principal entidade nacional da
+
+16
+área de computação no Brasil
+
+17
+Foi fundada em 1978
+
+18
+Os principais objetivos da SBC são representar o Brasil
+
+19
+em organizações internacionais como a IFIP
+
+20
+estimular o ensino de computação nas escolas e universidades
+
+21
+promover no Brasil eventos científicos e apoiar olimpíadas
+
+22
+e competições como a OBI, a IOI e a Maratona da SBC
+
+23
+.

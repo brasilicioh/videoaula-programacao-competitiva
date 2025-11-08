@@ -3,4 +3,4 @@
 Mostrarei agora uma questão desse esporte. Caso tenha interesse, pause o vídeo, leia com atenção e tente pensar em como resolvê-la.
 Para resolver essa questão, basta você entender que o número de três das entradas será reduzido em um; após isso basta somar todos os valores.
 Mostraremos agora cinco soluções possíveis em cinco linguagens de programação diferentes: C, C++, JavaScript, Python e Rust.
-O código em Python até pode ser o mais curto entre os cinco, mas não se deixe enganar por isso: as linguagens C e C++ são as mais usadas, pois são extremamente rápidas.
+O código em Python até pode ser o mais curto entre os cinco, mas não se deixe enganar por isso. As linguagens C e C++ são as mais usadas, pois são extremamente rápidas.

@@ -1,10 +1,10 @@
 6.txt
 # Sobre OBI
-Agora irei falar de uma competição organizada pela SBC e pela Unicamp (Universidade de Campinas).
+Agora irei falar de uma competição organizada pela SBC e pela Unicamp: a Universidade de Campinas.
 Ela é voltada para alunos do ensino fundamental ao ensino médio.
 A OBI (Olimpíada Brasileira de Informática) é uma competição nacional com objetivo de despertar o interesse dos jovens pela programação.
 Ela é dividida em duas modalidades: Iniciação e Programação.
-Ambas modalidades se subdividem em níveis de dificuldade e em fases.
+Ambas modalidades se subdividem em níveis de dificuldades diferentes e em fases.
 A olimpíada se separa em três fases distintas;
 apenas após a terceira fase - ou seja, aqueles alunos que passaram das outras fases - é decidido os melhores competidores do país.
 A modalidade iniciação é uma prova objetiva destinada a alunos entre o 4° e o 9° ano do ensino fundamental.
@@ -16,6 +16,6 @@ Seguindo a mesma regra e estrutura das olimpíadas comentadas anteriormente, ess
 Os estudantes devem resolver as problemáticas das questões por meio de algoritmos que funcionem com um bom desempenho.
 Com o resultado dessa olimpíada, os melhores alunos são selecionados e treinados para representar o Brasil na IOI (International Olympiad in Informatics).
 Ela foi criada em 1989 e acontece anualmente.
-Ela é considerada a “Olimpíada Mundial de Programação para jovens”.
-A mesma reúne estudantes do ensino médio de mais de 80 países e busca distribuir medalhas de ouro, prata e bronze e uma menção honrosa entre os melhores da competição.
+Ela é considerada a Olimpíada Mundial de Programação para jovens.
+Ela reúne estudantes do ensino médio de mais de 80 países e busca distribuir medalhas de ouro, prata e bronze e uma menção honrosa entre os melhores da competição.
 Voltando para a OBI…

@@ -1,14 +1,14 @@
 7.txt
 # <Inserir título dps>
-Lembra daquela questão que mostramos no início do vídeo? Ela é da OBI 2013, primeira fase, nível júnior.
+Lembra daquela questão que mostramos no início do vídeo? Ela é da OBI de 2013, primeira fase, nível júnior.
 Bem, ela não é tão difícil, como você pôde ver, em python ela foi feita em apenas duas linhas! 
 Mostrarei agora mais uma questão da OBI; ela é mais recente e mais desafiadora.
 Intervalo Distinto é uma questão da prova de 2023, da fase 2A, nível 2. Dê um pause no vídeo, leia a questão e tente pensar como você faria ela.
 
-Note que a explicação dessa questão é até menor que a anterior, mas implementá-la é bem mais desafiador.
+Note que a descrição dessa questão é até menor que a anterior, mas implementar ela é bem mais desafiador.
 E lembrando: você tem que conseguir implementar um algoritmo que passe em todos testes em um tempo rápido.
-Abaixo, novamente, temos três respostas com três linguagens de programação diferentes: python, C++ e C.
-Cada código foi feito por um autor diferente dessa videoaula, assim como na primeira questão que mostramos.
+Abaixo, novamente, temos cinco respostas com cinco linguagens de programação diferentes: C, C++, JavaScript, Python e Rust.
+Cada código dessa questão e da questão anterior foram feitos pelos autores dessa videoaula.
 
 Poderíamos tirar um tempo para explicar o que cada código faz;
 mas essa videoaula ficaria muito grande.
