@@ -1,0 +1,68 @@
+1
+Os competidores recebem vários problemas e devem resolvê-los com
+
+2
+linhas de código da forma mais rápida e eficiente possível
+
+3
+O seu código, baseado em "entradas-teste" (inputs) já predefinidas
+
+4
+deve processar os dados e demonstrar uma "saída-teste" (outputs) 
+
+5
+para tal processamento de cada entrada
+
+6
+Em um ambiente virtual, o mesmo deve submeter o arquivo; após isso 
+
+7
+uma máquina virtual executa o código com vários inputs e depois
+
+8
+compara a saída do código com o output correto
+
+9
+Após verificação, o código pode ter sido feito corretamente, acertado
+
+10
+em só alguns inputs - o que faz a questão ser considerada incorreta
+
+11
+na maioria das competições, ou até mesmo ter passado do tempo
+
+12
+limite de execução definido na questão
+
+13
+Mesmo se o competidor estiver errado, ele pode
+
+14
+submeter arquivos de código quantas vezes quiser.
+
+15
+Ganha a competição aquele que resolver o máximo de 
+
+16
+problemas possíveis no tempo de prova
+
+17
+Em casos de empate ganha quem tiver feito mais rapidamente 
+
+18
+e com menor quantidade de "respostas erradas"
+
+19
+Algo interessante das competições, é que o competidor pode enviar 
+
+20
+quantas respostas quiser; e só vai contar a de maior pontuação
+
+21
+Outra coisa legal é que eles descobrem se acertaram totalmente
+
+22
+parcialmente ou nada logo após enviar o arquivo do código!
+
+23
+.
