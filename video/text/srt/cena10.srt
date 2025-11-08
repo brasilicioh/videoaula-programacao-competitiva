@@ -1,8 +1,9 @@
-10.txt
-# Referências
-Programação competitiva (codificação) para iniciantes: o que é, site principal (https://www.guru99.com/pt/competitive-programming-topcoder.html)
-ACM International Collegiate Programming Contest – Wikipédia, a enciclopédia livre (https://pt.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest)
-Olimpíada Brasileira de Informática (https://olimpiada.ic.unicamp.br/)
-Maratona SBC de Programação (https://maratona.sbc.org.br/)
-Codificação como esporte. Um breve guia para programação competitiva (https://codegym.cc/pt/groups/posts/pt.533.codificacao-como-esporte-um-breve-guia-para-programacao-competitiva)
-LeetCode - The World's Leading Programming Learning Platform (https://leetcode.com/)
+9.txt
+# Fim
+No decorrer da aula aprendemos muitas coisas como o que é programação competitiva e como funciona.
+Em resumo, a programação competitiva não é nada mais nada menos que um esporte que testa seu raciocínio lógico na construção de linhas de código.
+Muitas das vantagens de praticar esse esporte são as melhorias dos raciocínios lógicos, matemáticos e computacionais;
+além de aprimorar suas habilidades na construção de algoritmos.
+A programação competitiva não se resume apenas a fazer códigos — trata-se de lógica, criatividade e na diversão em resolver problemas.
+Espero que você tenha gostado dessa videoaula;
+e também espero que você também tenha se interessado por esse esporte.

@@ -1,15 +1,21 @@
-7.txt
-# <Inserir título dps>
-Lembra daquela questão que mostramos no início do vídeo? Ela é da OBI de 2013, primeira fase, nível júnior.
-Bem, ela não é tão difícil, como você pôde ver, em python ela foi feita em apenas duas linhas! 
-Mostrarei agora mais uma questão da OBI; ela é mais recente e mais desafiadora.
-Intervalo Distinto é uma questão da prova de 2023, da fase 2A, nível 2. Dê um pause no vídeo, leia a questão e tente pensar como você faria ela.
-
-Note que a descrição dessa questão é até menor que a anterior, mas implementar ela é bem mais desafiador.
-E lembrando: você tem que conseguir implementar um algoritmo que passe em todos testes em um tempo rápido.
-Abaixo, novamente, temos cinco respostas com cinco linguagens de programação diferentes: C, C++, JavaScript, Python e Rust.
-Cada código dessa questão e da questão anterior foram feitos pelos autores dessa videoaula.
-
-Poderíamos tirar um tempo para explicar o que cada código faz;
-mas essa videoaula ficaria muito grande.
-Então, a tarefa de casa de vocês é: ler as questões, pensar na ideia de como resolver e depois tentar interpretar o que cada código faz.
+6.txt
+# Sobre OBI
+Agora irei falar de uma competição organizada pela SBC e pela Unicamp: a Universidade de Campinas.
+Ela é voltada para alunos do ensino fundamental ao ensino médio.
+A OBI (Olimpíada Brasileira de Informática) é uma competição nacional com objetivo de despertar o interesse dos jovens pela programação.
+Ela é dividida em duas modalidades: Iniciação e Programação.
+Ambas modalidades se subdividem em níveis de dificuldades diferentes e em fases.
+A olimpíada se separa em três fases distintas;
+apenas após a terceira fase - ou seja, aqueles alunos que passaram das outras fases - é decidido os melhores competidores do país.
+A modalidade iniciação é uma prova objetiva destinada a alunos entre o 4° e o 9° ano do ensino fundamental.
+Ela busca desafiar o raciocínio dos estudantes.
+Essa prova não é o foco dessa videoaula.
+Tenho interesse em explicar sobre a segunda modalidade.
+Ela sim faz parte do esporte dessa aula.
+Seguindo a mesma regra e estrutura das olimpíadas comentadas anteriormente, essa modalidade tem como objetivo selecionar os melhores estudantes por meio da programação competitiva.
+Os estudantes devem resolver as problemáticas das questões por meio de algoritmos que funcionem com um bom desempenho.
+Com o resultado dessa olimpíada, os melhores alunos são selecionados e treinados para representar o Brasil na IOI (International Olympiad in Informatics).
+Ela foi criada em 1989 e acontece anualmente.
+Ela é considerada a Olimpíada Mundial de Programação para jovens.
+Ela reúne estudantes do ensino médio de mais de 80 países e busca distribuir medalhas de ouro, prata e bronze e uma menção honrosa entre os melhores da competição.
+Voltando para a OBI…

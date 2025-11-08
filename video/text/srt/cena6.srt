@@ -1,101 +1,53 @@
 1
-Agora irei falar de uma competição organizada pela SBC
+É muito importante você saber sobre essas competições
 
 2
-e pela Unicamp: a Universidade de Campinas
+pois são grandes oportunidades de conhecimento e de 
 
 3
-Ela é voltada para alunos do ensino fundamental ao ensino médio
+reconhecimento no mundo da computação. Iremos falar sobre
 
 4
-A OBI (Olimpíada Brasileira de Informática) é uma competição
+quatro competições: a Maratona da SBC, a ICPC, a OBI e a IOI
 
 5
-nacional com objetivo de despertar o interesse
+A Maratona de programação da SBC é muito importante pois ela
 
 6
-dos jovens pela programação
+funciona como uma seleção nacional para competir na ICPC que é
 
 7
-Ela é dividida em duas modalidades: Iniciação e Programação
+a maior competição universitária do mundo. Na maratona, equipes
 
 8
-Ambas modalidades se subdividem em níveis
+de três pessoas competem entre si. Em 5 horas todos devem resolver
 
 9
-de dificuldades diferentes e em fases
+diversos problemas usando apenas um computador
 
 10
-A olimpíada se separa em três fases distintas
+Por curiosidade, em cada competição da SBC, toda questão é 
 
 11
-apenas após a terceira fase - ou seja, aqueles alunos que
+representada por um balão; cada questão sendo de uma cor diferente
 
 12
-passaram das outras fases - é decidido os
+Nas competições presenciais, quando uma equipe acerta uma questão
 
 13
-melhores competidores do país
+ela ganha um balão de gás hélio que tenha a mesma cor da questão
 
 14
-A modalidade iniciação é uma prova objetiva destinada
-
-13
-a alunos entre o 4° e o 9° ano do ensino fundamental
-
-14
-Ela busca desafiar o raciocínio dos estudantes
+A ICPC (International Collegiate Programming Contest) é a maior 
 
 15
-Essa prova não é o foco dessa videoaula
+competição universitária mundial e reúne universidades do mundo
 
 16
-Temos interesse mesmo em explicar sobre a segunda modalidade
+inteiro para participarem com equipes de 3 estudantes e um 
 
 17
-Ela sim faz parte do esporte desse vídeo
+professor para resolverem problemas difíceis e complexos
 
 18
-Seguindo a mesma regra e estrutura das olimpíadas comentadas
-
-19
-anteriormente, essa modalidade tem como objetivo selecionar os
-
-20
-melhores estudantes por meio da programação competitiva
-
-21
-Os estudantes devem resolver as problemáticas das questões por
-
-22
-meio de algoritmos que funcionem com um bom desempenho
-
-23
-Com o resultado dessa olimpíada, os melhores alunos são
-
-24
-selecionados e treinados para representar o Brasil na
-
-25
-IOI (International Olympiad in Informatics)
-
-26
-Ela foi criada em 1989 e acontece anualmente
-
-27
-Ela é considerada a
-
-28
-Olimpíada Mundial de Programação para jovens
-
-29
-Ela reúne estudantes do ensino médio de mais de 80 países e
-
-30
-busca distribuir medalhas de ouro, prata e bronze e uma
-
-31
-menção honrosa entre os melhores da competição
-
-32
-Voltando para a OBI
+.

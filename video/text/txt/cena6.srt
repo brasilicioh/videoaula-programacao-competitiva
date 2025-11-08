@@ -1,0 +1,6 @@
+6.txt
+# Olimpíadas
+É muito importante você saber sobre essas competições pois são grandes oportunidades de conhecimento e de reconhecimento no mundo da computação. Iremos falar sobre quatro competições: a Maratona da SBC, a ICPC, a OBI e a IOI.
+A Maratona de programação da SBC é muito importante pois ela funciona como uma seleção nacional para competir na ICPC que é a maior competição universitária do mundo. Na maratona, equipes de três pessoas competem entre si. Em 5 horas todos devem resolver diversos problemas usando apenas um computador.
+Por curiosidade, em cada competição da SBC, toda questão é representada por um balão; cada questão sendo de uma cor diferente. Nas competições presenciais, quando uma equipe acerta uma questão, ela ganha um balão de gás hélio que tenha a mesma cor da questão.
+A ICPC (International Collegiate Programming Contest) é a maior competição universitária mundial e reúne universidades do mundo inteiro para participarem com equipes de 3 estudantes e um professor para resolverem problemas difíceis e complexos.

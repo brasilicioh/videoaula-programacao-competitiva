@@ -1,9 +1,80 @@
-9.txt
-# Fim
-No decorrer da aula aprendemos muitas coisas como o que é programação competitiva e como funciona.
-Em resumo, a programação competitiva não é nada mais nada menos que um esporte que testa seu raciocínio lógico na construção de linhas de código.
-Muitas das vantagens de praticar esse esporte são as melhorias dos raciocínios lógicos, matemáticos e computacionais;
-além de aprimorar suas habilidades na construção de algoritmos.
-A programação competitiva não se resume apenas a fazer códigos — trata-se de lógica, criatividade e na diversão em resolver problemas.
-Espero que você tenha gostado dessa videoaula;
-e também espero que você também tenha se interessado por esse esporte.
+1
+Atualmente, existem muitos softwares que
+
+2
+têm a mesma ideia do esporte
+
+3
+Eles são usados para a preparação para torneios, treinos diários
+
+4
+entrevistas de emprego, torneios online
+
+5
+e entre várias outras funcionalidades
+
+6
+Essas plataformas oferecem problemas de vários níveis
+
+7
+e são ótimas para quem quer praticar algoritmos em
+
+8
+diferentes linguagens de programação
+
+9
+Existem várias plataformas diferentes, entre as mais
+
+10
+populares são: LeetCode, CodeForces, HackerRank e Beecrowd
+
+11
+Por mais que distintas, todas funcionam da mesma maneira
+
+12
+São plataformas que apresentam diversos problemas para que
+
+13
+os usuários possam responder
+
+14
+Alguns deles apresentam um ranking de jogadores com maior
+
+15
+pontuação; outros, de forma periódica organizam eventos
+
+16
+online para que os jogadores possam competir
+
+17
+Em síntese, é um espaço de aprendizagem
+
+18
+aperfeiçoamento e treino para o esporte
+
+19
+Agora, iremos mostrar mais uma questão
+
+20
+Essa foi retirada diretamente do LeetCode
+
+21
+ela é a questão número 1 do site
+
+22
+Seu nível de dificuldade é catalogado como "fácil"
+
+23
+porém o desafio mesmo está em construir o 
+
+24
+algoritmo mais rápido possível
+
+25
+Assim como nas outras questões, mostrarei cinco soluções
+
+26
+em cinco linguagens de programação
+
+27
+C, C++, JavaScript, Python e Rust

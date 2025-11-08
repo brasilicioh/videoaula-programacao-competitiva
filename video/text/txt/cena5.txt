@@ -3,7 +3,7 @@
 O esporte é monitorado e realizado por diversas organizações.
 Elas são responsáveis por criar, apoiar e promover muitas das competições de programação.
 Essas organizações reúnem pesquisadores, professores, estudantes e profissionais a fim de promover o avanço da ciência da computação, estimular a pesquisa e a inovação tecnológica, definir padrões e organizar eventos científicos e competições.
-Exemplos de organizações internacionais são: ACM (Association for Computing Machinery), IEEE Computer Society (Institute of Electrical and Electronics Engineers) e IFIP (International Federation for Information Processing).
+Exemplos de organizações internacionais são: ACM (Association for Computing Machinery), IEEE (Institute of Electrical and Electronics Engineers) e IFIP (International Federation for Information Processing).
 O Brasil também apresenta uma organização, ela é a SBC (Sociedade Brasileira de Computação).
 Ela é a principal entidade nacional da área de computação no Brasil.
 Foi fundada em 1978.

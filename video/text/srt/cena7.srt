@@ -1,71 +1,101 @@
 1
-Lembra daquela questão que mostramos no início do vídeo?
+Agora irei falar de uma competição organizada pela SBC
 
 2
-Ela é da OBI de 2013, primeira fase, nível júnior
+e pela Unicamp: a Universidade de Campinas
 
 3
-Bem, ela não é tão difícil, como você pôde ver
+Ela é voltada para alunos do ensino fundamental ao ensino médio
 
 4
-em python ela foi feita em apenas duas linhas!
+A OBI (Olimpíada Brasileira de Informática) é uma competição
 
 5
-Mostrarei agora mais uma questão da OBI
+nacional com objetivo de despertar o interesse
 
 6
-Ela é mais recente e mais desafiadora
+dos jovens pela programação
 
 7
-Intervalo Distinto é uma questão da prova de 2023
+Ela é dividida em duas modalidades: Iniciação e Programação
 
 8
-da fase 2A, nível 2
+Ambas modalidades se subdividem em níveis
 
 9
-Dê um pause no vídeo, leia a questão e
+de dificuldades diferentes e em fases
 
 10
-tente pensar como você faria ela
+A olimpíada se separa em três fases distintas
 
 11
-Note que a descrição dessa questão é até menor que a anterior
+apenas após a terceira fase - ou seja, aqueles alunos que
 
 12
-mas implementar ela é bem mais desafiador
+passaram das outras fases - é decidido os
 
 13
-E lembrando: você tem que conseguir implementar um algoritmo
+melhores competidores do país
 
 14
-que passe em todos testes em um tempo rápido
+A modalidade iniciação é uma prova objetiva destinada
+
+13
+a alunos entre o 4° e o 9° ano do ensino fundamental
+
+14
+Ela busca desafiar o raciocínio dos estudantes
 
 15
-Abaixo, novamente, temos cinco respostas com cinco linguagens
+Essa prova não é o foco dessa videoaula
 
 16
-de programação diferentes: C, C++, JavaScript, Python e Rust
+Tenho interesse em explicar sobre a segunda modalidade
 
 17
-Cada código dessa questão e da questão anterior foram feitos
+Ela sim faz parte do esporte dessa aula
 
 18
-pelos autores dessa videoaula
-
-18
-Poderíamos tirar um tempo para explicar o que cada código faz
+Seguindo a mesma regra e estrutura das olimpíadas comentadas
 
 19
-mas essa videoaula ficaria muito grande
+anteriormente, essa modalidade tem como objetivo selecionar os
 
 20
-Então, a tarefa de casa de vocês é: ler as questões, pensar
+melhores estudantes por meio da programação competitiva
 
 21
-na ideia de como resolver e depois
+Os estudantes devem resolver as problemáticas das questões por
 
 22
-tentar interpretar o que cada código faz
+meio de algoritmos que funcionem com um bom desempenho
 
 23
-.
+Com o resultado dessa olimpíada, os melhores alunos são
+
+24
+selecionados e treinados para representar o Brasil na
+
+25
+IOI (International Olympiad in Informatics)
+
+26
+Ela foi criada em 1989 e acontece anualmente
+
+27
+Ela é considerada a
+
+28
+Olimpíada Mundial de Programação para jovens
+
+29
+Ela reúne estudantes do ensino médio de mais de 80 países e
+
+30
+busca distribuir medalhas de ouro, prata e bronze e uma
+
+31
+menção honrosa entre os melhores da competição
+
+32
+Voltando para a OBIa

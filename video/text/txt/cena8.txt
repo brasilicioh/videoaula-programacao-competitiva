@@ -1,15 +1,15 @@
-8.txt
-# LeetCode, codeforces, beecrowd etc
-Atualmente, existem muitos softwares que têm a mesma ideia do esporte.
-Eles são usados para a preparação para torneios, treinos diários, entrevistas de emprego, torneios online e entre várias outras funcionalidades.
-Essas plataformas oferecem problemas de vários níveis e são ótimas para quem quer praticar algoritmos em diferentes linguagens de programação.
-Existem várias plataformas diferentes, entre as mais populares: LeetCode, CodeForces, HackerRank e Beecrowd.
-Por mais que distintas, todas funcionam da mesma maneira.
-São plataformas que apresentam diversos problemas para que os usuários possam responder.
-Alguns deles apresentam um ranking de jogadores com maior pontuação; outros, de forma periódica organizam eventos online para que os jogadores possam competir.
-Em síntese, é um espaço de aprendizagem, aperfeiçoamento e treino para o esporte.
-Agora, iremos mostrar mais uma questão.
-Essa foi retirada diretamente do LeetCode; ela é a questão número 1 do site.
-Seu nível é catalogado como “fácil”, porém o desafio está em construir o algoritmo mais rápido possível.
+7.txt
+# <Inserir título dps>
+Lembra daquela questão que mostrei no início do vídeo? Ela é da OBI de 2013, primeira fase, nível júnior.
+Bem, ela não é tão difícil, como você pôde ver, em python ela foi feita em apenas duas linhas! 
+Mostrarei agora mais uma questão da OBI; ela é mais recente e mais desafiadora.
+Intervalo Distinto é uma questão da prova de 2023, da fase 2A, nível 2. Dê um pause no vídeo, leia a questão e tente pensar como você faria ela.
 
-Assim como nas outras questões, mostramos três soluções em três linguagens diferentes: python, C++ e C.
+Note que a descrição dessa questão é até menor que a anterior, mas implementar ela é bem mais desafiador.
+E lembrando: você tem que conseguir implementar um algoritmo que passe em todos testes em um tempo rápido.
+Abaixo, novamente, há cinco respostas com cinco linguagens de programação diferentes: C, C++, JavaScript, Python e Rust.
+Cada código dessa questão e da questão anterior foram feitos pelos autores dessa videoaula.
+
+Eu poderia tirar um tempo para explicar o que cada código faz;
+mas essa videoaula ficaria muito grande.
+Então, a tarefa de casa de vocês é: ler as questões, pensar na ideia de como resolver e depois tentar interpretar o que cada código faz.
