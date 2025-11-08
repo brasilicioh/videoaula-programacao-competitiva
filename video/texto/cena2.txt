@@ -1,4 +1,4 @@
 2.txt
 # Origem
 O esporte surgiu em meados da década de 1970 na Texas A&M University. Lá, passaram a construir pequenos problemas em formato de competição para os estudantes. 
-Cerca de 20 a 30 anos depois, as competições começaram a se espalhar pelo mundo. O concurso International Collegiate Programming Contest, por exemplo, há mais de 80 times de países diferentes competindo desde 2005.
+Cerca de 20 a 30 anos depois, as competições começaram a se espalhar pelo mundo. O concurso International Collegiate Programming Contest, por exemplo, tem mais de 80 times de países diferentes competindo desde 2005.

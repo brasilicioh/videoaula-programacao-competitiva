@@ -1,0 +1,31 @@
+1
+00:00:00,150 --> 00:00:05,100
+O esporte surgiu em meados da década de 1970 na Texas A&M University
+
+2
+00:00:05,400 --> 00:00:07,800
+Lá, passaram a construir pequenos problemas em
+
+3
+00:00:07,801 --> 00:00:09,820
+formato de competição para os estudantes
+
+4
+00:00:10,400 --> 00:00:12,200
+Cerca de 20 a 30 anos depois
+
+5
+00:00:12,400 --> 00:00:14,600
+as competições começaram a se espalhar pelo mundo
+
+6
+00:00:14,800 --> 00:00:18,310
+O concurso International Collegiate Programming Contest (ICPC), por exemplo
+
+7
+00:00:18,311 --> 00:00:22,000
+tem mais de 80 times de países diferentes competindo desde 2005
+
+8
+00:00:22,100 --> 00:00:23,000
+.
