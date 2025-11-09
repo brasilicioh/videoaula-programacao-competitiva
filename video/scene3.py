@@ -1,5 +1,5 @@
 from moviepy import vfx
-from Clips import (
+from clips import (
     subtitle_clip,
     audio_clip,
     cat_clip,

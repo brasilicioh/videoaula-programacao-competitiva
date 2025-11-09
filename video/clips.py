@@ -14,9 +14,18 @@ class AudioBundle(NamedTuple):
     raw: AudioFileClip
     mix: CompositeAudioClip
 
-def audio_clip(name: str, start: float = 0) -> AudioBundle:
-    audio = AudioFileClip(f"sound/{name}.mp3").with_start(start)
-    return AudioBundle(audio, CompositeAudioClip([audio]))
+def mix_audios(*audios: AudioBundle) -> AudioBundle:
+    raw = [audio.raw for audio in audios]
+    mix = CompositeAudioClip([audio.mix for audio in audios])
+    return AudioBundle(raw[0], mix)
+
+def audio_clip(name: str | list[str], start: float = 0) -> AudioBundle:
+    if isinstance(name, list):
+        clips = [audio_clip(n, s) for n, s in name]
+        return mix_audios(*clips)
+    else:
+        audio = AudioFileClip(f"sound/{name}.mp3").with_start(start)
+        return AudioBundle(audio, CompositeAudioClip([audio]))
 
 def cat_clip(name: str, start: float, duration: float, position: tuple = ("center", "center")) -> ImageClip:
     return (
