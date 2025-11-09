@@ -1,5 +1,5 @@
 from moviepy import vfx, ColorClip
-from clips import (
+from Clips import (
     subtitle_clip,
     audio_clip,
     cat_clip,
@@ -16,28 +16,28 @@ white_background = (
 room_background = img_clip("img/background/bedroom.png", SCREEN_SIZE, 1, 19, (0,0))
 
 cat1 = (
-    cat_clip("cat1", 2.5, 3)
-    .with_effects([vfx.CrossFadeIn(1)])
+    cat_clip("cat1", 2.25, 3.2)
+    .with_effects([vfx.CrossFadeIn(0.7)])
 )
-cat2 = cat_clip("cat2", 5.5, 4.3)
-cat3 = cat_clip("cat4", 9.8, 4.2)
+cat2 = cat_clip("cat2", 5.45, 3.9)
+cat3 = cat_clip("cat4", 9.35, 4.65)
 cat4 = cat_clip("cat2", 14, 6)
 
 img1 = (
-    img_clip("img/imgs/competitive-programming.png", (500, 500), 10.3, 5.5, (1400, 400))
+    img_clip("img/imgs/competitive-programming.png", (500, 500), 11, 6, (1400, 400))
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 img2 = (
-    img_clip("img/imgs/raciociocio_logico.jpg", (420, 260), 13, 3, (50, 20))
-    .with_effects([vfx.CrossFadeOut(0.4)])
+    img_clip("img/imgs/raciociocio_logico.jpg", (420, 260), 12.8, 4.2, (50, 20))
+    .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 img3 = (
-    img_clip("img/imgs/matematica.jpeg", (360, 260), 13.8, 2.2, (120, 290))
-    .with_effects([vfx.CrossFadeOut(0.4)])
+    img_clip("img/imgs/matematica.jpeg", (360, 260), 13.6, 3.4, (120, 290))
+    .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 img4 = (
-    img_clip("img/imgs/sciencephile.jpg", (330, 330), 14.8, 1.2, (180, 590))
-    .with_effects([vfx.CrossFadeOut(0.4)])
+    img_clip("img/imgs/sciencephile.jpg", (330, 330), 14.4, 2.6, (180, 590))
+    .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 
 audio = audio_clip("cena1", 3)

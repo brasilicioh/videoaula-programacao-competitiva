@@ -1,5 +1,5 @@
 from moviepy import vfx, VideoFileClip
-from clips import (
+from Clips import (
     subtitle_clip,
     audio_clip,
     cat_clip,
@@ -9,51 +9,51 @@ from clips import (
 )
 
 room_background = (
-    img_clip("img/background/bedroom.png", SCREEN_SIZE, 0, 3.2)
+    img_clip("img/background/bedroom.png", SCREEN_SIZE, 0, 3.6)
     .with_effects([vfx.CrossFadeOut(1)])
 )
 university_background = (
-    img_clip("img/imgs/texas.jpg", SCREEN_SIZE, 3.2, 10.3)
-    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+    img_clip("img/imgs/texas.jpg", SCREEN_SIZE, 3.5, 11.2)
+    .with_effects([vfx.CrossFadeIn(1), vfx.CrossFadeOut(1)])
 )
 world_background = (
-    img_clip("img/imgs/mundo.jpg", SCREEN_SIZE, 13.5, 3)
+    img_clip("img/imgs/mundo.jpg", SCREEN_SIZE, 14.6, 3)
     .with_effects([vfx.CrossFadeIn(1), vfx.CrossFadeOut(1)])
 )
 icpc_background = (
-    img_clip("img/logo/icpc.jpg", SCREEN_SIZE, 16, 7)
+    img_clip("img/logo/icpc.jpg", SCREEN_SIZE, 17.6, 6.8)
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
 )
 
-cat1 = cat_clip("cat2", 0, 3)
+cat1 = cat_clip("cat2", 0, 3.5)
 cat2 = (
-    cat_clip("cat5", 5, 5, ("center", "center"))
+    cat_clip("cat5", 5.2, 6)
     .with_effects([vfx.CrossFadeIn(0.75)])
 )
 
 img1 = (
-    img_clip("img/imgs/decada70.jpg", (500, 500), 1.2, 1.9, (60, 100))
-    .with_effects([vfx.CrossFadeIn(0.7), vfx.CrossFadeOut(0.3)])
+    img_clip("img/imgs/decada70.jpg", (500, 500), 1.4, 2.1, (60, 100))
+    .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.3)])
 )
 img2 = (
     VideoFileClip("img/imgs/calendario.gif")
-    .with_effects([vfx.Loop(duration=3.5)])
+    .with_effects([vfx.Loop(duration=3.4)])
     .with_effects([vfx.Resize((SCREEN_SIZE[0] * 0.8, SCREEN_SIZE[1] * 0.8))])
-    .with_start(10)
+    .with_start(11.2)
     .with_position(("center", "center"))
-    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
 )
 img3 = (
-    img_clip("img/imgs/icpc_teams.jpg", (SCREEN_SIZE[0]*0.7, SCREEN_SIZE[1]*0.7), 18, 4.25)
-    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+    img_clip("img/imgs/icpc_teams.jpg", (SCREEN_SIZE[0]*0.7, SCREEN_SIZE[1]*0.7), 20, 4.1)
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.6)])
 )
 img4 = (
-    img_clip("img/imgs/icpc_team1.jpg", (SCREEN_SIZE[0]*0.6, SCREEN_SIZE[1]*0.6), 19.25, 3)
-    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+    img_clip("img/imgs/icpc_team1.jpg", (SCREEN_SIZE[0]*0.6, SCREEN_SIZE[1]*0.6), 21.25, 2.85)
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.6)])
 )
 img5 = (
-    img_clip("img/imgs/icpc_team2.jpg", (SCREEN_SIZE[0]*0.5, SCREEN_SIZE[1]*0.5), 20.75, 2)
-    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+    img_clip("img/imgs/icpc_team2.jpg", (SCREEN_SIZE[0]*0.5, SCREEN_SIZE[1]*0.5), 22.5, 1.6)
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.6)])
 )
 
 audio = audio_clip("cena2")
