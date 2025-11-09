@@ -1,12 +1,7 @@
 5.txt
 # Organizações internacionais e a SBC
-O esporte é monitorado e realizado por diversas organizações.
-Elas são responsáveis por criar, apoiar e promover muitas das competições de programação.
-Essas organizações reúnem pesquisadores, professores, estudantes e profissionais a fim de promover o avanço da ciência da computação, estimular a pesquisa e a inovação tecnológica, definir padrões e organizar eventos científicos e competições.
-Exemplos de organizações internacionais são: ACM (Association for Computing Machinery), IEEE (Institute of Electrical and Electronics Engineers) e IFIP (International Federation for Information Processing).
-O Brasil também apresenta uma organização, ela é a SBC (Sociedade Brasileira de Computação).
-Ela é a principal entidade nacional da área de computação no Brasil.
-Foi fundada em 1978.
-Os principais objetivos da SBC são representar o Brasil em organizações internacionais como a IFIP;
-estimular o ensino de computação nas escolas e universidades;
-promover no Brasil eventos científicos e apoiar olimpíadas e competições como a OBI, a IOI e a Maratona da SBC.
+Esse esporte, assim como outros, apresenta algumas organizações. Existem organizações internacionais e nacionais.
+São as responsáveis por criar, apoiar e promover muitas das competições de programação.
+A organização brasileira é a Sociedade Brasileira de Computação (SBC). 
+Fundada em 1978; ela representa o país em eventos internacionais e estimula o estudo da computação no ensino.
+Além disso, promover no eventos científicos e apoiar olimpíadas como a OBI e a Maratona da SBC.

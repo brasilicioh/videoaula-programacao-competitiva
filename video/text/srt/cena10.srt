@@ -1,41 +1,59 @@
 1
+00:00:00,000 --> 00:00:02,300
 No decorrer da aula aprendemos muitas coisas
 
 2
-Como: o que é e como funciona a programação competitiva
+00:00:02,450 --> 00:00:05,400
+como: o que é e como funciona a programação competitiva
 
 3
+00:00:05,700 --> 00:00:08,520
 Em resumo, a programação competitiva não é nada mais nada
 
 4
-menos que um esporte que testa seu raciocínio lógico na
+00:00:08,521 --> 00:00:10,980
+menos que um esporte que testa seu raciocínio lógico
 
 5
-construção de linhas de código
+00:00:10,346 --> 00:00:12,600
+na construção de linhas de código
 
 6
+00:00:12,800 --> 00:00:15,900
 Muitas das vantagens de praticar esse esporte são as melhorias
 
 7
+00:00:15,901 --> 00:00:18,950
 dos raciocínios lógicos, matemáticos e computacionais
 
 8
-além de aprimorar suas habilidades na construção de algoritmos
+00:00:19,100 --> 00:00:22,400
+Além de aprimorar suas habilidades na construção de algoritmos
 
 9
+00:00:22,750 --> 00:00:25,880
 A programação competitiva não se resume apenas a fazer códigos
 
 10
-trata-se também de lógica, criatividade e na
+00:00:26,200 --> 00:00:28,300
+trata-se também de lógica, criatividade
 
 11
-diversão em resolver problemas
+00:00:28,301 --> 00:00:30,140
+e na diversão em resolver problemas
 
 12
+00:00:30,340 --> 00:00:32,500
 Espero que você tenha gostado dessa videoaula
 
 13
-e também espero que você também tenha
+00:00:32,650 --> 00:00:34,300
+E também espero que você também tenha
 
 14
-se interessado por esse esporte.
+00:00:34,301 --> 00:00:35,850
+se interessado por esse esporte
+
+15
+00:00:36,000 --> 00:00:37,000
+.

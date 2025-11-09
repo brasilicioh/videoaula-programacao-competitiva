@@ -1,53 +1,87 @@
 1
+00:00:00,050 --> 00:00:02,500
 É muito importante você saber sobre essas competições
 
 2
+00:00:02,501 --> 00:00:04,880
 pois são grandes oportunidades de conhecimento e de 
 
 3
+00:00:04,881 --> 00:00:07,880
 reconhecimento no mundo da computação. Iremos falar sobre
 
 4
+00:00:07,881 --> 00:00:12,700
 quatro competições: a Maratona da SBC, a ICPC, a OBI e a IOI
 
 5
+00:00:13,370 --> 00:00:16,700
 A Maratona de programação da SBC é muito importante pois ela
 
 6
+00:00:16,701 --> 00:00:20,260
 funciona como uma seleção nacional para competir na ICPC que é
 
 7
-a maior competição universitária do mundo. Na maratona, equipes
+00:00:20,261 --> 00:00:22,350
+a maior competição universitária do mundo
 
 8
-de três pessoas competem entre si. Em 5 horas todos devem resolver
+00:00:22,800 --> 00:00:25,900
+Na maratona, equipes de três pessoas competem entre si
 
 9
-diversos problemas usando apenas um computador
+00:00:26,100 --> 00:00:29,900
+Em cinco horas todos devem resolver
 
 10
-Por curiosidade, em cada competição da SBC, toda questão é 
+00:00:29,901 -->  00:00:30,600
+diversos problemas usando apenas um computador
 
 11
-representada por um balão; cada questão sendo de uma cor diferente
+00:00:31,200 --> 00:00:34,690
+Por curiosidade, em cada competição da SBC, toda questão é 
 
 12
-Nas competições presenciais, quando uma equipe acerta uma questão
+00:00:34,691 --> 00:00:35,900
+representada por um balão
 
 13
-ela ganha um balão de gás hélio que tenha a mesma cor da questão
+00:00:36,200 --> 00:00:38,300
+Cada questão sendo de uma cor diferente
 
 14
-A ICPC (International Collegiate Programming Contest) é a maior 
+00:00:38,790 --> 00:00:40,900
+Nas competições presenciais, quando uma 
 
 15
-competição universitária mundial e reúne universidades do mundo
+00:00:40,901 --> 00:00:42,150
+equipe acerta uma questão
 
 16
-inteiro para participarem com equipes de 3 estudantes e um 
+00:00:42,151 --> 00:00:45,250
+ela ganha um balão de gás hélio que tenha a mesma cor da questão
 
 17
-professor para resolverem problemas difíceis e complexos
+00:00:45,920 --> 00:00:46,820
+A ICPC (International Collegiate Programming Contest) é a
 
 18
+00:00:46,821 --> 00:00:50,100
+maior competição universitária mundial e reúne universidades
+
+19
+00:00:50,101 --> 00:00:52,550
+do mundo inteiro para participarem com equipes de três
+
+20
+00:00:52,551 --> 00:00:54,290
+estudantes e um professor para resolverem
+
+21
+00:00:54,291 --> 00:00:56,430
+problemas muito difíceis e complexos
+
+22
+00:00:57,000 --> 00:00:58,000
 .

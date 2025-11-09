@@ -1,71 +1,95 @@
 1
-Lembra daquela questão que mostrei no início do vídeo?
+00:00:00,200 --> 00:00:02,300
+Lembra daquela questão que mostramos no início do vídeo?
 
 2
-Ela é da OBI de 2013, primeira fase, nível júnior
+00:00:03,450 --> 00:00:07,150
+Ela é da OBI 2013, primeira fase, nível júnior
 
 3
+00:00:07,550 --> 00:00:10,740
 Bem, ela não é tão difícil, como você pôde ver
 
 4
+00:00:10,741 --> 00:00:13,000
 em python ela foi feita em apenas duas linhas!
 
 5
+00:00:13,500 --> 00:00:15,750
 Mostrarei agora mais uma questão da OBI
 
 6
+00:00:16,050 --> 00:00:18,000
 Ela é mais recente e mais desafiadora
 
 7
+00:00:19,300 --> 00:00:23,000
 Intervalo Distinto é uma questão da prova de 2023
 
 8
+00:00:23,001 --> 00:00:24,900
 da fase 2A, nível 2
 
 9
+00:00:25,500 --> 00:00:27,600
 Dê um pause no vídeo, leia a questão e
 
 10
+00:00:27,601 --> 00:00:29,530
 tente pensar como você faria ela
 
 11
+00:00:31,530 --> 00:00:34,630
 Note que a descrição dessa questão é até menor que a anterior
 
 12
-mas implementar ela é bem mais desafiador
+00:00:35,050 --> 00:00:37,230
+Mas implementá-la é bem mais desafiador
 
 13
+00:00:37,630 --> 00:00:40,580
 E lembrando: você tem que conseguir implementar um algoritmo
 
 14
+00:00:40,581 --> 00:00:42,800
 que passe em todos testes em um tempo rápido
 
 15
-Abaixo, novamente, há cinco respostas com cinco linguagens
+00:00:43,400 --> 00:00:46,630
+Agora, novamente, há cinco respostas com cinco linguagens
 
 16
+00:00:46,631 --> 00:00:50,930
 de programação diferentes: C, C++, JavaScript, Python e Rust
 
 17
-Cada código dessa questão e da questão anterior foram feitos
+00:00:52,480 --> 00:00:55,050
+Cada código dessa questão e da questão anterior
 
 18
-pelos autores dessa videoaula
-
-18
-Eu poderia tirar um tempo para explicar o que cada código faz
+00:00:55,051 --> 00:00:57,230
+foram feitos pelos autores dessa videoaula
 
 19
-mas essa videoaula ficaria muito grande
+00:00:58,000 --> 00:01:00,300
+Poderíamos tirar um tempo para explicar o que cada
 
 20
-Então, a tarefa de casa de vocês é: ler as questões, pensar
+00:01:00,301 --> 00:01:03,500
+código faz. Mas essa videoaula ficaria muito grande
 
 21
-na ideia de como resolver e depois
+00:01:04,100 --> 00:01:07,570
+Então, a tarefa de casa de vocês é: ler as questões, pensar
 
 22
-tentar interpretar o que cada código faz
+00:01:07,571 --> 00:01:09,460
+na ideia de como resolver e depois
 
 23
+00:01:09,461 --> 00:01:11,500
+tentar interpretar o que cada código faz
+
+24
+00:01:12,000 --> 00:01:13,000
 .

@@ -1,39 +1,39 @@
 1
-00:00:00,150 --> 00:00:03,300
+00:00:00,150 --> 00:00:03,600
 O esporte surgiu em meados da década de 1970
 
 2
-00:00:03,301 --> 00:00:05,100
+00:00:03,601 --> 00:00:05,750
 na Texas A&M University
 
 3
-00:00:05,400 --> 00:00:07,800
+00:00:06,200 --> 00:00:08,700
 Lá, passaram a construir pequenos problemas em
 
 4
-00:00:07,801 --> 00:00:09,820
+00:00:08,701 --> 00:00:10,820
 formato de competição para os estudantes
 
 5
-00:00:10,400 --> 00:00:12,200
+00:00:11,400 --> 00:00:13,300
 Cerca de 20 a 30 anos depois
 
 6
-00:00:12,400 --> 00:00:14,600
+00:00:13,400 --> 00:00:15,950
 as competições começaram a se espalhar pelo mundo
 
 7
-00:00:14,800 --> 00:00:17,600
+00:00:16,500 --> 00:00:19,450
 O concurso International Collegiate Programming Contest (ICPC)
 
 8
-00:00:17,601 --> 00:00:18,310
+00:00:19,451 --> 00:00:20,000
 por exemplo
 
 9
-00:00:18,311 --> 00:00:22,000
+00:00:20,220 --> 00:00:23,960
 tem mais de 80 times de países diferentes competindo desde 2005
 
 10
-00:00:22,100 --> 00:00:23,000
+00:00:24,000 --> 00:00:25,000
 .

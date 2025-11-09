@@ -1,101 +1,131 @@
 1
+00:00:00,100 --> 00:00:03,000
 Agora irei falar de uma competição organizada pela SBC
 
 2
+00:00:03,001 --> 00:00:05,750
 e pela Unicamp: a Universidade de Campinas
 
 3
+00:00:06,500 --> 00:00:09,500
 Ela é voltada para alunos do ensino fundamental ao ensino médio
 
 4
+00:00:09,750 --> 00:00:11,100
 A OBI (Olimpíada Brasileira de Informática) é uma competição
 
 5
+00:00:11,101 --> 00:00:13,300
 nacional com objetivo de despertar o interesse
 
 6
+00:00:13,301 --> 00:00:14,600
 dos jovens pela programação
 
 7
+00:00:15,250 --> 00:00:19,100
 Ela é dividida em duas modalidades: Iniciação e Programação
 
 8
+00:00:19,660 --> 00:00:21,930
 Ambas modalidades se subdividem em níveis
 
 9
+00:00:21,931 --> 00:00:24,000
 de dificuldades diferentes e em fases
 
 10
+00:00:24,680 --> 00:00:26,930
 A olimpíada se separa em três fases distintas
 
 11
-apenas após a terceira fase - ou seja, aqueles alunos que
+00:00:27,250 --> 00:00:30,550
+Apenas após a terceira fase - ou seja, aqueles alunos que
 
 12
+00:00:30,551 --> 00:00:32,660
 passaram das outras fases - é decidido os
 
 13
+00:00:32,661 --> 00:00:34,240
 melhores competidores do país
 
 14
+00:00:34,830 --> 00:00:37,670
 A modalidade iniciação é uma prova objetiva destinada
 
 13
+00:00:37,671 --> 00:00:40,900
 a alunos entre o 4° e o 9° ano do ensino fundamental
 
 14
+00:00:41,150 --> 00:00:43,450
 Ela busca desafiar o raciocínio dos estudantes
 
 15
+00:00:44,200 --> 00:00:46,600
 Essa prova não é o foco dessa videoaula
 
 16
+00:00:47,280 --> 00:00:50,000
 Tenho interesse em explicar sobre a segunda modalidade
 
 17
-Ela sim faz parte do esporte dessa aula
+00:00:50,300 --> 00:00:52,680
+Ela sim faz parte do esporte desse vídeo
 
 18
+00:00:53,300 --> 00:00:56,680
 Seguindo a mesma regra e estrutura das olimpíadas comentadas
 
 19
-anteriormente, essa modalidade tem como objetivo selecionar os
+00:00:56,930 --> 00:00:59,310
+Essa modalidade tem como objetivo selecionar os
 
 20
+00:00:59,311 --> 00:01:02,000
 melhores estudantes por meio da programação competitiva
 
 21
-Os estudantes devem resolver as problemáticas das questões por
+00:01:02,000 --> 00:01:05,210
+Esses estudantes devem resolver as problemáticas das questões
 
 22
-meio de algoritmos que funcionem com um bom desempenho
+00:01:05,211 --> 00:01:08,000
+por meio de algoritmos que funcionem com um bom desempenho
 
 23
+00:01:08,450 --> 00:01:12,450
 Com o resultado dessa olimpíada, os melhores alunos são
 
 24
+00:01:12,451 --> 00:01:14,600
 selecionados e treinados para representar o Brasil na
 
 25
+00:01:14,601 --> 00:01:15,700
 IOI (International Olympiad in Informatics)
 
 26
+00:01:16,000 --> 00:01:19,300
 Ela foi criada em 1989 e acontece anualmente
 
 27
-Ela é considerada a
-
-28
-Olimpíada Mundial de Programação para jovens
-
-29
+00:01:19,550 --> 00:01:22,500
 Ela reúne estudantes do ensino médio de mais de 80 países e
 
 30
+00:01:22,501 --> 00:01:25,390
 busca distribuir medalhas de ouro, prata e bronze e uma
 
 31
+00:01:25,391 --> 00:01:27,700
 menção honrosa entre os melhores da competição
 
 32
-Voltando para a OBIa
+00:01:28,100 --> 00:01:29,540
+Voltando à OBI
+
+33
+00:01:30,000 --> 00:01:31,000
+.

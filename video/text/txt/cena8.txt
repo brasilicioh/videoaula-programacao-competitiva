@@ -5,9 +5,9 @@ Bem, ela não é tão difícil, como você pôde ver, em python ela foi feita em
 Mostrarei agora mais uma questão da OBI; ela é mais recente e mais desafiadora.
 Intervalo Distinto é uma questão da prova de 2023, da fase 2A, nível 2. Dê um pause no vídeo, leia a questão e tente pensar como você faria ela.
 
-Note que a descrição dessa questão é até menor que a anterior, mas implementar ela é bem mais desafiador.
+Note que a descrição dessa questão é até menor que a anterior. Mas implementar ela é bem mais desafiador.
 E lembrando: você tem que conseguir implementar um algoritmo que passe em todos testes em um tempo rápido.
-Abaixo, novamente, há cinco respostas com cinco linguagens de programação diferentes: C, C++, JavaScript, Python e Rust.
+Agora, novamente, há cinco respostas com cinco linguagens de programação diferentes: C, C++, JavaScript, Python e Rust.
 Cada código dessa questão e da questão anterior foram feitos pelos autores dessa videoaula.
 
 Eu poderia tirar um tempo para explicar o que cada código faz;

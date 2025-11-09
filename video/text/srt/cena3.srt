@@ -1,99 +1,99 @@
 1
-00:00:00,500 --> 00:00:03,700
+00:00:00,500 --> 00:00:04,150
 Os competidores recebem vários problemas e devem resolver eles
 
 2
-00:00:03,701 --> 00:00:07.150
+00:00:04,151 --> 00:00:07,450
 com linhas de código da forma mais rápida e eficiente possível
 
 3
-00:00:07,800 --> 00:00:10.000
+00:00:08,250 --> 00:00:10,320
 O seu código, baseado em "entradas-teste" (inputs) já
 
 4
-00:00:10.001 --> 00:00:13.000
+00:00:10,321 --> 00:00:13,100
 predefinidas, deve processar os dados e demonstrar uma
 
 5
-00:00:13.001 --> 00:00:15.900
+00:00:13,101 --> 00:00:16,000
 "saída-teste" (outputs) para tal processamento de cada entrada
 
 6
-00:00:16.400 --> 00:00:19.300
+00:00:16,600 --> 00:00:19,550
 Em um ambiente virtual, o mesmo deve submeter o arquivo
 
 7
-00:00:19.500 --> 00:00:22.100
+00:00:19,850 --> 00:00:22,300
 após isso, uma máquina virtual executa o código com
 
 8
-00:00:22.101 --> 00:00:24.650
+00:00:22,301 --> 00:00:25,000
 vários inputs e depois compara a saída do código
 
 9
-00:00:24.651 --> 00:00:26.300
+00:00:25,001 --> 00:00:26,100
 com o output correto
 
 10
-00:00:26.800 --> 00:00:30.400
+00:00:26,800 --> 00:00:30,300
 Após verificação, o código pode ter sido feito corretamente
 
 11
-00:00:30.400 --> 00:00:34.450
-acertado em só alguns inputs - o que faz a questão
+00:00:30,400 --> 00:00:33,400
+ou acertado em só alguns inputs - o que faz a questão
 
 12
-00:00:34.451 --> 00:00:36.700
+00:00:33,401 --> 00:00:35,900
 ser considerada incorreta na maioria das competições
 
 13
-00:00:37.100 --> 00:00:38.900
-ou até mesmo ter passado do tempo limite de
+00:00:36,100 --> 00:00:38,050
+Ou até mesmo ter passado do tempo limite
 
 14
-00:00:38.901 --> 00:00:40.200
-execução definido na questão
+00:00:38,051 --> 00:00:39,100
+definido para questão
 
 15
-00:00:40.500 --> 00:00:43.250
+00:00:39,350 --> 00:00:42,200
 Mas, mesmo se o competidor estiver errado, ele pode
 
 16
-00:00:43.251 --> 00:00:46.000
-submeter arquivos de código quantas vezes quiser
+00:00:42,201 --> 00:00:44,350
+submeter outros arquivos de código
 
 17
-00:00:46.100 --> 00:00:48.750
+00:00:45,100 --> 00:00:47,700
 Ganha a competição aquele que resolver o máximo de
 
 18
-00:00:48.751 --> 00:00:50.640
+00:00:47,701 --> 00:00:49,600
 problemas possíveis no tempo de prova
 
 19
-00:00:51.200 --> 00:00:54.300
+00:00:50,100 --> 00:00:53,300
 Em casos de empate, ganha quem tiver feito mais rapidamente
 
 20
-00:00:54.301 --> 00:00:56.700
+00:00:53,301 --> 00:00:55,500
 e com menor quantidade de "respostas erradas"
 
 21
-00:00:57.200 --> 00:01:00,500
+00:00:56,150 --> 00:00:59,600
 Algo interessante das competições, é que o competidor pode enviar
 
 22
-00:01:00,501 --> 00:01:04,450
+00:00:59,601 --> 00:01:02,780
 quantas respostas quiser; e só vai contar a de maior pontuação
 
 23
-00:01:04,600 --> 00:01:07,600
+00:01:03,000 --> 00:01:05,900
 Outra coisa legal é que eles descobrem se acertaram totalmente
 
 24
-00:01:07,700 --> 00:01:10,800
+00:01:06,100 --> 00:01:09,170
 parcialmente ou nada logo após enviar o arquivo do código!
 
 25
-00:01:11,000 --> 00:01:12,000
+00:01:10,000 --> 00:01:11,000
 .

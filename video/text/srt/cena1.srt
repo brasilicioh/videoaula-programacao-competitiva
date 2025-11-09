@@ -3,25 +3,25 @@
 Olá, eu me chamo Scratch!
 
 2
-00:00:05,700 --> 00:00:09,140
-Nessa videoaula iremos falar sobre Programação Competitiva
+00:00:05,450 --> 00:00:08,750
+Nessa videoaula irei falar sobre Programação Competitiva
 
 3
-00:00:09,700 --> 00:00:12,420
+00:00:09,350 --> 00:00:11,950
 A programação competitiva é um esporte que envolve
 
 4
-00:00:12,421 --> 00:00:15,500
+00:00:11,951 --> 00:00:15,000
 resolver problemas lógicos, matemáticos e computacionais
 
 5
-00:00:15,700 --> 00:00:18,000
+00:00:15,600 --> 00:00:17,600
 Com o objetivo de criar algoritmos eficientes
 
 6
-00:00:18,001 - 00:00:19,600
+00:00:17,601 - 00:00:18,960
 que resolvam esses problemas
 
 7
-00:00:19,700 --> 00:00:21,000
+00:00:19,000 --> 00:00:20,000
 .

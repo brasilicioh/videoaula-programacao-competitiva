@@ -1,46 +1,51 @@
 1
-00:00:00,150 --> 00:00:02,300
+00:00:00,000 --> 00:00:02,300
 Mostrarei agora uma questão desse esporte
 
 2
-00:00:02,800 --> 00:00:05,490
+00:00:02,600 --> 00:00:05,750
 Caso tenha interesse, pause o vídeo leia com atenção e
 
 3
-00:00:05,491 --> 00:00:07,000
+00:00:05,751 --> 00:00:07,280
 tente pensar em como resolvê-la
 
 4
-00:00:09,200 --> 00:00:11,800
+00:00:09,280 --> 00:00:11,750
 Para resolver essa questão, basta você entender que o
 
 5
-00:00:11,801 --> 00:00:15,000
+00:00:11,751 --> 00:00:14,800
 número de três das entradas será reduzido em um; após
 
 6
-00:00:15,001 --> 00:00:16,800
+00:00:14,801 --> 00:00:16,700
 isso basta somar todos os valores
 
 7
-00:00:17,500 --> 00:00:20,400
+00:00:17,100 --> 00:00:20,200
 Mostraremos agora cinco soluções possíveis em cinco linguagens
 
 8
-00:00:20,401 --> 00:00:24,000
+00:00:20,201 --> 00:00:25,220
 de programação diferentes: C, C++, JavaScript, Python e Rust
 
 9
+00:00:27,220 --> 00:00:30,060
 O código em Python até pode ser o mais curto entre os cinco
 
 10
+00:00:30,330 --> 00:00:31,70
 mas não se deixe enganar por isso
 
 11
+00:00:32,050 --> 00:00:34,970
 As linguagens C e C++ são as mais usadas
 
 12
+00:00:34,971 --> 00:00:36,530
 pois são extremamente rápidas
 
 13
+00:00:37,000 --> 00:00:38,000
 .
