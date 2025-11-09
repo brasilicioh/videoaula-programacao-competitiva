@@ -1,7 +1,7 @@
 5.txt
 # Organizações internacionais e a SBC
-Esse esporte, assim como outros, apresenta algumas organizações. Existem organizações internacionais e nacionais.
-São as responsáveis por criar, apoiar e promover muitas das competições de programação.
+Esse esporte, assim como outros, apresenta algumas organizações.
+São elas as responsáveis por criar, apoiar e promover muitas das competições de programação.
 A organização brasileira é a Sociedade Brasileira de Computação (SBC). 
 Fundada em 1978; ela representa o país em eventos internacionais e estimula o estudo da computação no ensino.
-Além disso, promover no eventos científicos e apoiar olimpíadas como a OBI e a Maratona da SBC.
+Além disso, ela promove eventos científicos e apoia olimpíadas como a OBI e a Maratona da SBC.

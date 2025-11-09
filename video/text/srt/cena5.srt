@@ -1,87 +1,32 @@
 1
-00:00:00,100 --> 00:00:03,700
-O esporte é monitorado e realizado por diversas organizações
+Esse esporte, assim como outros
 
 2
-00:00:05,500 --> 00:00:07,730
-Elas são responsáveis por criar, apoiar e promover
+apresenta algumas organizações
 
 3
-00:00:07,731 --> 00:00:09,700
-muitas das competições de programação
+São elas as responsáveis por criar, apoiar e promover
 
 4
-00:00:10,200 --> 00:00:13,540
-Essas organizações reúnem pesquisadores, professores, estudantes
+muitas das competições de programação
 
 5
-00:00:13,541 --> 00:00:16,000
-e profissionais a fim de promover o avanço da ciência da
+A organização brasileira é a
 
 6
-00:00:16,001 --> 00:00:19,250
-computação, estimular a pesquisa e a inovação tecnológica
+Sociedade Brasileira de Computação (SBC)
 
 7
-00:00:19,450 --> 00:00:22,600
-definir padrões e organizar eventos científicos e competições
+Fundada em 1978; ela representa o país em eventos
 
 8
-00:00:23,200 --> 00:00:25,550
-Exemplos de organizações internacionais são:
+internacionais e estimula o estudo da computação no ensino
 
 9
-00:00:25,650 --> 00:00:26,280
-ACM (Association for Computing Machinery)
+Além disso, ela promove eventos científicos e apoia 
 
 10
-00:00:26,400 --> 00:00:27,100
-IEEE (Institute of Electrical and Electronics Engineers)
+olimpíadas como a OBI e a Maratona da SBC
 
 11
-00:00:27,200 --> 00:00:26,200
-e IFIP (International Federation for Information Processing)
-
-12
-00:00:28,500 --> 00:00:31,000
-O Brasil também apresenta uma organização, ela é a
-
-13
-00:00:31,001 --> 00:00:34,300
-SBC, ou seja: a Sociedade Brasileira de Computação
-
-15
-00:00:34,600 --> 00:00:36,490
-Ela é a principal entidade nacional da
-
-16
-00:00:36,491 --> 00:00:37,750
-área de computação no Brasil
-
-17
-00:00:37,920 --> 00:00:40,000
-Foi fundada em 1978
-
-18
-00:00:40,600 --> 00:00:43,800
-Os principais objetivos da SBC são representar o Brasil
-
-19
-00:00:43,801 --> 00:00:46,300
-em organizações internacionais como a IFIP
-
-20
-00:00:46,900 --> 00:00:49,900
-estimular o ensino de computação nas escolas e universidades
-
-21
-00:00:50,000 --> 00:00:52,830
-promover no Brasil eventos científicos e apoiar olimpíadas
-
-22
-00:00:52,831 --> 00:00:56,640
-e competições como a OBI, a IOI e a Maratona da SBC
-
-23
-00:00:57,000 --> 00:00:58,000
 .
