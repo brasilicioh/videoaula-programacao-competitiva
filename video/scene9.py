@@ -14,7 +14,7 @@ from clips import (
 # veja a cena 1 e 2 para tomar como exemplo
 
 university_background = (
-    img_clip("img/background/room1.png", SCREEN_SIZE, 0, 30.0 )
+    img_clip("img/background/room1.png", SCREEN_SIZE, 0, 73.0 )
     .with_effects([vfx.CrossFadeIn(1)]) #adicione 1 segundo a mais na cena, para dar tempo do fade
     .with_effects([vfx.CrossFadeOut(1)])
 )
@@ -26,12 +26,28 @@ cat1 = (
 cat4 = (
     cat_clip("cat4", 7, 9)
 )
+cat5 = (
+    cat_clip("cat5", 30, 20)
+)
+
+cat3 = (
+    cat_clip("cat3", 50, 20,position=(200,"center"))  # gato a lateral
+)
+cat6 = (
+    cat_clip("cat6", 70, 3, position=("center", 500))
+)
+
 
 
 img1 = (
     img_clip("img/imgs/Hacker.jpeg", SCREEN_SIZE, 16,8)
+    .with_effects([vfx.CrossFadeIn(0.8), vfx.CrossFadeOut(0.8)])
+)
+img2 = (
+    img_clip("img/imgs/imgcomputer.jpg", SCREEN_SIZE, 45,50)
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
+
 leetcodelogo = (
     img_clip("img/logo/leetcode.jpg", (500,500), 24, 6, (50,50))
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
@@ -45,15 +61,34 @@ hakerranklogo = (
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 codeforcelogo = (
-    img_clip("img/logo/codeforces.jpg", (400,250), 25, 5, (1450,600))
+    img_clip("img/logo/codeforces.jpg", (400,250), 25, 5, (1500,600))
+    .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
+)
+twosum = (
+    img_clip("img/questions/two-sum/description.png", (1000,800), 54, 15, (900,100))
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 
-
-
-
-
-
+ans1 = (
+    img_clip("img/questions/two-sum/c.png", (500, 500), 70, 3, (50, 0))
+    .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
+)
+ans2 = (
+    img_clip("img/questions/two-sum/cpp.png", (500, 500), 70, 3, (1370, 0))
+    .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
+)
+ans3 = (
+    img_clip("img/questions/two-sum/js.png", (500, 500), 70, 3, (1370, 580))
+    .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
+)
+ans4 = (
+    img_clip("img/questions/two-sum/py.png", (500, 500), 70, 3, (50, 580))
+    .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
+)
+ans5 = (
+    img_clip("img/questions/two-sum/rs.png", (500, 500), 70, 3, (720, 0))
+    .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
+)
 
 
 # recomendacao: na construcao do video, coloque as variaveis em ordem cronologica
@@ -66,8 +101,9 @@ subtitle = subtitle_clip("cena9") # pega o srt da cena9
 
 clips = [
     university_background,
-    cat1, cat4,
-    img1, leetcodelogo, beecrowdlogo, hakerranklogo, codeforcelogo,      
+    cat1, cat4, cat5, cat6, cat3,
+    img1, leetcodelogo, beecrowdlogo, hakerranklogo, codeforcelogo, 
+    twosum, ans1,ans2,ans3,ans4,ans5,     
     subtitle     
         ] # adicione nessa lista todos os clips seguindo 
                    # essa ordem: backgrounds -> cats -> imgs -> subtitle
