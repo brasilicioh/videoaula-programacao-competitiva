@@ -8,6 +8,11 @@ from clips import (
     SCREEN_SIZE # tamanho constante de tela -> Full HD
 )
 
+# 
+# t is a value from 0-1
+def ease_inout(t: float) -> float:
+    return 2 * t * t if t < 0.5 else 1 - (-2 * t + 2)**2 / 2;
+
 # aqui, utilize o cat_clip para fazer gatos
 # img_clip para fazer fotos e background
 # se necessario, importe outras coisas para fazer mais clips
@@ -23,12 +28,35 @@ room_background = (
 )
 
 cat1 = (
-    cat_clip("cat4", 0, 13.35)
+    cat_clip("cat4", 0, 8.7)
 )
 
+# vai ter que fazer uma gambiarra aqui, o vfx.MirrorX deixa um espaço preto atrás
 cat2 = (
-    cat_clip("cat5", 13.35, 31.2)
-    .with_position(lambda t: (max(SCREEN_SIZE[0]/2 - 300 - 300*t, 20), "center"))
+    cat_clip("cat3", 8.7, 1.8)
+)
+
+#TODO: gato fica desenha no mesmo lugar que antes,
+# deixando uma marca preta e não renderizando parte do gato
+cat3 = (
+    cat_clip("cat3", 10.5, 1)
+    .with_effects([vfx.MirrorX()])
+)
+
+cat4 = (
+    cat_clip("cat3", 11.5, 1.75)
+)
+
+cat5 = (
+    cat_clip("cat5", 13.25, 32.67) # until 1.3700
+    .with_position(lambda t: (
+        # this makes sense pls, don't mess with it
+        max(SCREEN_SIZE[0]/2 - 300 - 640*ease_inout(min(t/2, 1)), 20),
+        "center"))
+)
+
+cat6 = (
+    cat_clip("cat2", 45.82, 10.18)
 )
 
 maratona_logo = (
@@ -48,16 +76,40 @@ ioi_logo = (
              11.8, 0.9, (1144, 770))
 )
 
+# equipe de três pessoas
+# Computador.jpg
+# computador.jpg
+# Hacker.jpeg
+
+equipe_pessoa1 = (
+    img_clip("img/imgs/computador.jpg", (SCREEN_SIZE[0]*0.3, SCREEN_SIZE[1] * 0.3),
+             23.5, 7, (SCREEN_SIZE[0] / 2 - SCREEN_SIZE[0]*0.285/2, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.MirrorX(),
+                   vfx.Crop(0, 0, SCREEN_SIZE[0]*0.285/2, SCREEN_SIZE[1])])
+)
+equipe_pessoa2 = (
+    img_clip("img/imgs/computador.jpg", (SCREEN_SIZE[0]*0.3, SCREEN_SIZE[1] * 0.3),
+             23.5, 7, (SCREEN_SIZE[0] / 2, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.MirrorX(),
+                   vfx.Crop(0, 0, SCREEN_SIZE[0]*0.285/2, SCREEN_SIZE[1])])
+)
+equipe_pessoa3 = (
+    img_clip("img/imgs/Hacker.jpeg", (SCREEN_SIZE[0]*0.2, SCREEN_SIZE[1] * 0.3),
+             23.5, 7, (SCREEN_SIZE[0] / 2 + SCREEN_SIZE[0]*0.285/2, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5)])
+)
+
 audio = audio_clip("cena6") # pega o cena6.mp3
 
 subtitle = subtitle_clip("cena6") # pega o srt da cena6
 
 clips = [room_background,
-         cat1, cat2,
+         cat1, cat2, cat3, cat4, cat5, cat6,
          maratona_logo, icpc_logo, obi_logo, ioi_logo,
+         equipe_pessoa1, equipe_pessoa2, equipe_pessoa3,
          subtitle] # adicione nessa lista todos os clips seguindo 
                    # essa ordem: backgrounds -> cats -> imgs -> subtitle
 
 video = video_clip(clips, audio.mix) # faz video com o audio e tudo que tiver no array clips
 
-video.write_videofile("clips/cena6.mp4", fps=12) # exporta o audio
+video.write_videofile("clips/cena6.mp4", fps=24) # exporta o audio
