@@ -1,31 +1,41 @@
 1
+00:00:00,000 --> 00:00:01,600
 Esse esporte, assim como outros
 
 2
+00:00:01,601 --> 00:00:03,600
 apresenta algumas organizações
 
 3
+00:00:03,750 --> 00:00:06,400
 São elas as responsáveis por criar, apoiar e promover
 
 4
+00:00:06,401 --> 00:00:08,400
 muitas das competições de programação
 
 5
+00:00:08,580 --> 00:00:10,000
 A organização brasileira é a
 
 6
-Sociedade Brasileira de Computação (SBC)
+00:00:10,001 --> 00:00:12,700
+Sociedade Brasileira de Computação, a SBC
 
 7
+00:00:13,000 --> 00:00:16,900
 Fundada em 1978; ela representa o país em eventos
 
 8
+00:00:16,901 --> 00:00:19,7-0
 internacionais e estimula o estudo da computação no ensino
 
 9
+00:00:19,850 --> 00:00:22,350
 Além disso, ela promove eventos científicos e apoia 
 
 10
+00:00:22,351 --> 00:00:25,005
 olimpíadas como a OBI e a Maratona da SBC
 
 11

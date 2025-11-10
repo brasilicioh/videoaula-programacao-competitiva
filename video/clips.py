@@ -1,5 +1,5 @@
 from moviepy.video.tools.subtitles import SubtitlesClip
-from moviepy import vfx, TextClip, AudioFileClip, CompositeAudioClip, ImageClip, CompositeVideoClip
+from moviepy import vfx, TextClip, AudioFileClip, CompositeAudioClip, ImageClip, VideoFileClip, CompositeVideoClip
 from typing import NamedTuple
 
 SCREEN_SIZE = (1920, 1080)
@@ -42,6 +42,15 @@ def img_clip(path: str, size: tuple, start: float, duration: float, position: tu
         .with_effects([vfx.Resize(size)])
         .with_start(start)
         .with_duration(duration)
+        .with_position(position)
+    )
+
+def gif_clip(path: str, size: tuple, start: float, duration: float, position: tuple = ("center", "center")) -> VideoFileClip:
+    return (
+        VideoFileClip(path)
+        .with_effects([vfx.Resize(size)])
+        .with_start(start)
+        .with_effects([vfx.Loop(duration=duration)])
         .with_position(position)
     )
 

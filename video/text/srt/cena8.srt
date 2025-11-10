@@ -23,19 +23,19 @@ Mostrarei agora mais uma questão da OBI
 Ela é mais recente e mais desafiadora
 
 7
-00:00:19,300 --> 00:00:23,000
+00:00:19,000 --> 00:00:22,800
 Intervalo Distinto é uma questão da prova de 2023
 
 8
-00:00:23,001 --> 00:00:24,900
+00:00:22,801 --> 00:00:24,400
 da fase 2A, nível 2
 
 9
-00:00:25,500 --> 00:00:27,600
+00:00:25,100 --> 00:00:27,300
 Dê um pause no vídeo, leia a questão e
 
 10
-00:00:27,601 --> 00:00:29,530
+00:00:27,301 --> 00:00:29,530
 tente pensar como você faria ela
 
 11

@@ -110,4 +110,4 @@ clips = [
 
 video = video_clip(clips, audio.mix) # faz video com o audio e tudo que tiver no array clips
 
-video.write_videofile("clips/cena9.mp4", fps=4) # exporta o audio
+video.write_videofile("clips/cena9.mp4", fps=24) # exporta o audio

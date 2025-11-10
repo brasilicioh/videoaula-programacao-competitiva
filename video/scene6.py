@@ -60,6 +60,4 @@ clips = [room_background,
 
 video = video_clip(clips, audio.mix) # faz video com o audio e tudo que tiver no array clips
 
-video = video.subclipped(13, 14)
-
 video.write_videofile("clips/cena6.mp4", fps=12) # exporta o audio

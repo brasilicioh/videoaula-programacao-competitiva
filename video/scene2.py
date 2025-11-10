@@ -1,9 +1,10 @@
-from moviepy import vfx, VideoFileClip
+from moviepy import vfx
 from clips import (
     subtitle_clip,
     audio_clip,
     cat_clip,
     img_clip,
+    gif_clip,
     video_clip,
     SCREEN_SIZE
 )
@@ -25,33 +26,31 @@ icpc_background = (
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
 )
 
-cat1 = cat_clip("cat2", 0, 3.5)
+cat1 = (
+    cat_clip("cat2", 0, 3.5)
+)
 cat2 = (
     cat_clip("cat5", 5.2, 6)
     .with_effects([vfx.CrossFadeIn(0.75)])
 )
 
-img1 = (
+year70 = (
     img_clip("img/imgs/decada70.jpg", (500, 500), 1.4, 2.1, (60, 100))
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.3)])
 )
-img2 = (
-    VideoFileClip("img/imgs/calendario.gif")
-    .with_effects([vfx.Loop(duration=3.4)])
-    .with_effects([vfx.Resize((SCREEN_SIZE[0] * 0.8, SCREEN_SIZE[1] * 0.8))])
-    .with_start(11.2)
-    .with_position(("center", "center"))
+date_gif = (
+    gif_clip("img/imgs/calendario.gif", (SCREEN_SIZE[0] * 0.8, SCREEN_SIZE[1] * 0.8), 11.2, 3.4)
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
 )
-img3 = (
+team1 = (
     img_clip("img/imgs/icpc_teams.jpg", (SCREEN_SIZE[0]*0.7, SCREEN_SIZE[1]*0.7), 20, 4.1)
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.6)])
 )
-img4 = (
+team2 = (
     img_clip("img/imgs/icpc_team1.jpg", (SCREEN_SIZE[0]*0.6, SCREEN_SIZE[1]*0.6), 21.25, 2.85)
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.6)])
 )
-img5 = (
+team3 = (
     img_clip("img/imgs/icpc_team2.jpg", (SCREEN_SIZE[0]*0.5, SCREEN_SIZE[1]*0.5), 22.5, 1.6)
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.6)])
 )
@@ -60,8 +59,9 @@ audio = audio_clip("cena2")
 
 subtitle = subtitle_clip("cena2")
 
-clips = [room_background, university_background, world_background, icpc_background, 
-         cat1, cat2, img1, img2, img3, img4, img5, subtitle]
+clips = [room_background, university_background, world_background, 
+         icpc_background, cat1, cat2, year70, date_gif, team1, team2,
+         team3, subtitle]
 
 video = video_clip(clips, audio.mix)
 
