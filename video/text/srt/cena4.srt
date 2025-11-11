@@ -11,41 +11,41 @@ Caso tenha interesse, pause o vídeo leia com atenção e
 tente pensar em como resolvê-la
 
 4
-00:00:09,280 --> 00:00:11,750
+00:00:11,280 --> 00:00:13,750
 Para resolver essa questão, basta você entender que o
 
 5
-00:00:11,751 --> 00:00:14,800
+00:00:13,751 --> 00:00:16,800
 número de três das entradas será reduzido em um; após
 
 6
-00:00:14,801 --> 00:00:16,700
+00:00:16,801 --> 00:00:18,700
 isso basta somar todos os valores
 
 7
-00:00:17,100 --> 00:00:20,200
+00:00:19,100 --> 00:00:22,200
 Mostraremos agora cinco soluções possíveis em cinco linguagens
 
 8
-00:00:20,201 --> 00:00:25,220
+00:00:22,201 --> 00:00:27,220
 de programação diferentes: C, C++, JavaScript, Python e Rust
 
 9
-00:00:27,220 --> 00:00:30,060
+00:00:29,220 --> 00:00:32,060
 O código em Python até pode ser o mais curto entre os cinco
 
 10
-00:00:30,330 --> 00:00:31,70
+00:00:32,330 --> 00:00:33,70
 mas não se deixe enganar por isso
 
 11
-00:00:32,050 --> 00:00:34,970
+00:00:34,050 --> 00:00:36,970
 As linguagens C e C++ são as mais usadas
 
 12
-00:00:34,971 --> 00:00:36,530
+00:00:36,971 --> 00:00:38,530
 pois são extremamente rápidas
 
 13
-00:00:37,000 --> 00:00:38,000
+00:00:39,000 --> 00:00:40,000
 .

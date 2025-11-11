@@ -3,10 +3,13 @@ from moviepy import VideoFileClip, concatenate_videoclips
 
 arquivos = os.listdir("clips/")
 
-clips = [VideoFileClip(f"clips/cena{i}.mp4") for i in range(1, len(arquivos)+1)]
+clips = []
 
-clips.insert(0, VideoFileClip("clips/start.mov"))
-clips.append(VideoFileClip("clips/end.mov"))
+for i in range(0, len(arquivos)):
+    try:
+        clips.append(VideoFileClip(f"clips/cena{i}.mp4"))
+    except:
+        clips.append(VideoFileClip(f"clips/cena{i}.mov"))
 
 video_final = concatenate_videoclips(clips, method="compose")
 

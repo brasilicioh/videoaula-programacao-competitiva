@@ -8,12 +8,12 @@ from clips import (
     SCREEN_SIZE
 )
 
-white_background = (
-    ColorClip(SCREEN_SIZE, color=(255, 255, 255))
+black_bg = (
+    ColorClip(SCREEN_SIZE, color=(0, 0, 0))
     .with_start(0)
     .with_duration(1)
 )
-room_background = (
+room_bg= (
     img_clip("img/background/bedroom.png", SCREEN_SIZE, 1, 19, (0,0))
 )
 
@@ -52,8 +52,8 @@ audio = audio_clip("cena1", 3)
 
 subtitle = subtitle_clip("cena1")
 
-clips = [white_background, room_background, cat1, cat2, cat3, 
-         cat4, competitive_prog, logic_meme, math_meme, brainAI, 
+clips = [black_bg, room_bg, cat1, cat2, cat3, cat4, 
+         competitive_prog, logic_meme, math_meme, brainAI, 
          subtitle]
 
 video = video_clip(clips, audio.mix)

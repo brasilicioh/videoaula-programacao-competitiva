@@ -1,33 +1,51 @@
-from moviepy import vfx # vfx para efeitos crossfadein/out; se necessario, separado por virgula, importe mais coisas
+from moviepy import vfx
 from clips import (
-    subtitle_clip, # para fazer legendas -> ja feito
-    audio_clip, # para fazer o audio -> ja feito
-    cat_clip, # retorna um ImageClip do gato
-    img_clip, # retorna um ImageClip de uma imagem
-    video_clip, # junta todos ImageClip's e retorna um VideoClip
-    SCREEN_SIZE # tamanho constante de tela -> Full HD
+    subtitle_clip,
+    audio_clip,
+    cat_clip,
+    img_clip,
+    video_clip,
+    SCREEN_SIZE
 )
 
-# aqui, utilize o cat_clip para fazer gatos
-# img_clip para fazer fotos e background
-# se necessario, importe outras coisas para fazer mais clips
-# veja a cena 1 e 2 para tomar como exemplo
+school = (
+    img_clip("img/background/school.png", SCREEN_SIZE, 0, 2.3)
+)
 
-# recomendacao: na construcao do video, coloque as variaveis em ordem cronologica
-# se lembre de colocar todas variaveis no array clips seguindo a ordem de prioridade do array
-# ao terminar a codificacao, organize as variaveis em ordem igual a ordem do array
+cat1 = (
+    cat_clip("cat2", 0, 2.3)
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
+)
+
+question1 = (
+    img_clip("img/questions/tomadas/description1.png", SCREEN_SIZE, 2.3, 5.98)
+    .with_effects([vfx.FadeIn(0.5)])
+)
+question2 = (
+    img_clip("img/questions/tomadas/description2.png", SCREEN_SIZE, 8.28, 3)
+    .with_effects([vfx.CrossFadeOut(0.5)])
+)
+
+room = (
+    img_clip("img/background/room2.png", SCREEN_SIZE, 11.28, 7.82)
+    .with_effects([vfx.CrossFadeIn(0.5)])
+)
+
+cat2 = (
+    cat_clip("cat1", 11.28, 7.82)
+    .with_effects([vfx.CrossFadeIn(0.5)])
+)
 
 audio = audio_clip([
-    ("cena4-1", 0), # pega o cena4-1 e começa em 0
-    ("cena4-2", 9.28), # pega o cena4-2 -> start definido pelo tempo no srt
-    ("cena4-3", 27.22) # pega o cena4-3 -> start definido pelo tempo no srt
+    ("cena4-1", 0),
+    ("cena4-2", 11.28),
+    ("cena4-3", 29.22)
 ])
 
-subtitle = subtitle_clip("cena4") # pega o srt da cena4
+subtitle = subtitle_clip("cena4")
 
-clips = [subtitle] # adicione nessa lista todos os clips seguindo 
-                   # essa ordem: backgrounds -> cats -> imgs -> subtitle
+clips = [school, room, cat1, cat2, question1, question2, subtitle]
 
-video = video_clip(clips, audio.mix) # faz video com o audio e tudo que tiver no array clips
+video = video_clip(clips, audio.mix)
 
-video.write_videofile("clips/cena4.mp4", fps=24) # exporta o audio
+video.write_videofile("clips/cena4.mp4", fps=24)

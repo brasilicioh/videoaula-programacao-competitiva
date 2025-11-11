@@ -51,6 +51,10 @@ cat6 = (
     cat_clip("cat5", 55.5, 7.5, (100, "center"))
     .with_effects([vfx.CrossFadeIn(0.5)])
 )
+cat7 = (
+    cat_clip("cat1", 63, 7.1, (100, "center"))
+    .with_effects([vfx.CrossFadeOut(0.5)])
+)
 
 helloworld = (
     img_clip("img/imgs/meme_helloworld.jpg", (600, 600), 2.5, 5.1, (90, 100))
@@ -97,11 +101,6 @@ submissions2 = (
     img_clip("img/imgs/submissions2.png", (850, 850), 60.5, 2.5, (700, "center"))
     .with_effects([vfx.CrossFadeOut(0.5)])
 )
-
-cat7 = (
-    cat_clip("cat1", 63, 7, (100, "center"))
-)
-
 correto = (
     img_clip("img/imgs/correto.png", (400, 400), 65, 4, (1300, 0))
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
