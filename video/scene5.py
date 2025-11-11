@@ -1,4 +1,4 @@
-from moviepy import vfx
+from moviepy import vfx, ColorClip
 from clips import (
     subtitle_clip,
     audio_clip,
@@ -11,6 +11,16 @@ from clips import (
 wall = (
     img_clip("img/background/wall.png", SCREEN_SIZE, 0, 19.7)
     .with_effects([vfx.CrossFadeOut(1)])
+)
+competitive_bg = (
+    img_clip("img/imgs/competitive-programming2.jpg", SCREEN_SIZE, 19.7, 6.4)
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+)
+black_bg = (
+    ColorClip(SCREEN_SIZE, color=(0, 0, 0))
+    .with_start(26.1)
+    .with_duration(1)
+    .with_effects([vfx.CrossFadeIn(1)])
 )
 
 cat1 = (
@@ -42,9 +52,16 @@ cartaz_sbc = (
     img_clip("img/imgs/sbc_cartaz.png", (850, 850), 15.5, 2.3, (780, 80))
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
 )
-# TODO: testar e finalizar
 pessoas_sbc = (
     img_clip("img/imgs/sbc_pessoas.jpg", (SCREEN_SIZE[0]*0.7, SCREEN_SIZE[1]*0.7), 17.8, 1.9, (700, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+)
+obi_logo = (
+    img_clip("img/logo/obi.png", (300, 500), 22.7, 3.4, (1450, 50))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+)
+maratona_logo = (
+    img_clip("img/logo/maratona_sbc.jpg", (550, 450), 23.5, 2.6, (800, 200))
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
 )
 
@@ -52,8 +69,10 @@ audio = audio_clip("cena5")
 
 subtitle = subtitle_clip("cena5")
 
-clips = [wall, cat1, cat2, cat3, cat4, sbc_logo, ano1978, cartaz_sbc, pessoas_sbc, subtitle] 
+clips = [wall, competitive_bg, black_bg, cat1, cat2, cat3, cat4, 
+         sbc_logo, ano1978, cartaz_sbc, pessoas_sbc, obi_logo, 
+         maratona_logo, subtitle] 
 
-video = video_clip(clips, audio.mix).subclipped(12.5, 20.3)
+video = video_clip(clips, audio.mix).subclipped(18)
 
 video.write_videofile("clips/cena5.mp4", fps=24)
