@@ -1,29 +1,59 @@
-from moviepy import vfx # vfx para efeitos crossfadein/out; se necessario, separado por virgula, importe mais coisas
+from moviepy import vfx
 from clips import (
-    subtitle_clip, # para fazer legendas -> ja feito
-    audio_clip, # para fazer o audio -> ja feito
-    cat_clip, # retorna um ImageClip do gato
-    img_clip, # retorna um ImageClip de uma imagem
-    video_clip, # junta todos ImageClip's e retorna um VideoClip
-    SCREEN_SIZE # tamanho constante de tela -> Full HD
+    subtitle_clip,
+    audio_clip,
+    cat_clip,
+    img_clip,
+    video_clip,
+    SCREEN_SIZE
 )
 
-# aqui, utilize o cat_clip para fazer gatos
-# img_clip para fazer fotos e background
-# se necessario, importe outras coisas para fazer mais clips
-# veja a cena 1 e 2 para tomar como exemplo
+wall = (
+    img_clip("img/background/wall.png", SCREEN_SIZE, 0, 19.7)
+    .with_effects([vfx.CrossFadeOut(1)])
+)
 
-# recomendacao: na construcao do video, coloque as variaveis em ordem cronologica
-# se lembre de colocar todas variaveis no array clips seguindo a ordem de prioridade do array
-# ao terminar a codificacao, organize as variaveis em ordem igual a ordem do array
+cat1 = (
+    cat_clip("cat5", 0, 3.6)
+    .with_effects([vfx.CrossFadeIn(0.5)])
+)
+cat2 = (
+    cat_clip("cat2", 3.6, 4.8)
+    .with_effects([vfx.CrossFadeOut(0.5)])
+)
+cat3 = (
+    cat_clip("cat1", 8.4, 4.3, (50, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5)])
+)
+cat4 = (
+    cat_clip("cat4", 12.7, 7, (50, "center"))
+    .with_effects([vfx.CrossFadeOut(0.5)])
+)
 
-audio = audio_clip("cena5") # pega o cena5.mp3
+sbc_logo = (
+    img_clip("img/logo/sbc.jpg", (SCREEN_SIZE[0]*0.5, SCREEN_SIZE[1]*0.5), 10, 2.9, (700, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+)
+ano1978 = (
+    img_clip("img/imgs/1978.jpg", (SCREEN_SIZE[0]*0.43, SCREEN_SIZE[1]*0.43), 12.9, 2.6, (750, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+)
+cartaz_sbc = (
+    img_clip("img/imgs/sbc_cartaz.png", (850, 850), 15.5, 2.3, (780, 80))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+)
+# TODO: testar e finalizar
+pessoas_sbc = (
+    img_clip("img/imgs/sbc_pessoas.jpg", (SCREEN_SIZE[0]*0.7, SCREEN_SIZE[1]*0.7), 17.8, 1.9, (700, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+)
 
-subtitle = subtitle_clip("cena5") # pega o srt da cena5
+audio = audio_clip("cena5")
 
-clips = [subtitle] # adicione nessa lista todos os clips seguindo 
-                   # essa ordem: backgrounds -> cats -> imgs -> subtitle
+subtitle = subtitle_clip("cena5")
 
-video = video_clip(clips, audio.mix) # faz video com o audio e tudo que tiver no array clips
+clips = [wall, cat1, cat2, cat3, cat4, sbc_logo, ano1978, cartaz_sbc, pessoas_sbc, subtitle] 
 
-video.write_videofile("clips/cena5.mp4", fps=24) # exporta o audio
+video = video_clip(clips, audio.mix).subclipped(12.5, 20.3)
+
+video.write_videofile("clips/cena5.mp4", fps=24)
