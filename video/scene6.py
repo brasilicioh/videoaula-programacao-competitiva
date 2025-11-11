@@ -11,7 +11,7 @@ from clips import (
 # 
 # t is a value from 0-1
 def ease_inout(t: float) -> float:
-    return 2 * t * t if t < 0.5 else 1 - (-2 * t + 2)**2 / 2;
+    return 2 * t * t if t < 0.5 else 1 - (-2 * t + 2)**2 / 2
 
 # aqui, utilize o cat_clip para fazer gatos
 # img_clip para fazer fotos e background
@@ -51,12 +51,24 @@ cat5 = (
     cat_clip("cat5", 13.25, 32.67) # until 1.3700
     .with_position(lambda t: (
         # this makes sense pls, don't mess with it
-        max(SCREEN_SIZE[0]/2 - 300 - 640*ease_inout(min(t/2, 1)), 20),
+        max(SCREEN_SIZE[0]/2 - 300 - 10 - 640*ease_inout(min(t/2, 1)), 10),
         "center"))
 )
 
 cat6 = (
     cat_clip("cat2", 45.82, 10.18)
+)
+
+mundo = (
+    img_clip("img/imgs/mundo.jpg", (SCREEN_SIZE[0]*0.3, SCREEN_SIZE[1]*0.3),
+             5, 3, (SCREEN_SIZE[0]*3/4, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.25)])
+)
+
+icpc_competition = (
+    img_clip("img/imgs/icpc_teams.jpg", (SCREEN_SIZE[0]*0.5, SCREEN_SIZE[1]*0.5),
+             15.5, 8, (SCREEN_SIZE[0]*3/8, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5)])
 )
 
 maratona_logo = (
@@ -105,6 +117,7 @@ subtitle = subtitle_clip("cena6") # pega o srt da cena6
 
 clips = [room_background,
          cat1, cat2, cat3, cat4, cat5, cat6,
+         mundo, icpc_competition,
          maratona_logo, icpc_logo, obi_logo, ioi_logo,
          equipe_pessoa1, equipe_pessoa2, equipe_pessoa3,
          subtitle] # adicione nessa lista todos os clips seguindo 
@@ -112,4 +125,6 @@ clips = [room_background,
 
 video = video_clip(clips, audio.mix) # faz video com o audio e tudo que tiver no array clips
 
-video.write_videofile("clips/cena6.mp4", fps=24) # exporta o audio
+video = video.subclipped(14, 20)
+
+video.write_videofile("clips/cena6.mp4", fps=12) # exporta o audio
