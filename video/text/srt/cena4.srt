@@ -27,25 +27,25 @@ isso basta somar todos os valores
 Mostraremos agora cinco soluções possíveis em cinco linguagens
 
 8
-00:00:22,201 --> 00:00:27,220
+00:00:22,201 --> 00:00:29,040
 de programação diferentes: C, C++, JavaScript, Python e Rust
 
 9
-00:00:29,220 --> 00:00:32,060
+00:00:30,220 --> 00:00:33,060
 O código em Python até pode ser o mais curto entre os cinco
 
 10
-00:00:32,330 --> 00:00:33,70
+00:00:33,330 --> 00:00:34,70
 mas não se deixe enganar por isso
 
 11
-00:00:34,050 --> 00:00:36,970
+00:00:35,050 --> 00:00:37,970
 As linguagens C e C++ são as mais usadas
 
 12
-00:00:36,971 --> 00:00:38,530
+00:00:37,971 --> 00:00:39,530
 pois são extremamente rápidas
 
 13
-00:00:39,000 --> 00:00:40,000
+00:00:40,000 --> 00:00:41,000
 .
