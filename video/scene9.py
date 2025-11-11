@@ -15,9 +15,10 @@ from clips import (
 
 university_background = (
     img_clip("img/background/room1.png", SCREEN_SIZE, 0, 73.0 )
-    .with_effects([vfx.CrossFadeIn(1)]) #adicione 1 segundo a mais na cena, para dar tempo do fade
+    .with_effects([vfx.CrossFadeIn(1)])
     .with_effects([vfx.CrossFadeOut(1)])
 )
+
 
 
 cat1 = (
