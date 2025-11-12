@@ -4,6 +4,7 @@ from clips import (
     audio_clip,
     cat_clip,
     img_clip,
+    gif_clip,
     video_clip,
     SCREEN_SIZE
 )
@@ -12,10 +13,13 @@ school = (
     img_clip("img/background/school.png", SCREEN_SIZE, 0, 2.3)
 )
 room = (
-    img_clip("img/background/room2.png", SCREEN_SIZE, 11.28, 12.52)
+    img_clip("img/background/room2.png", SCREEN_SIZE, 11.28, 12.72)
+)
+matrix = (
+    gif_clip("img/imgs/matrix.gif", SCREEN_SIZE, 24, 8)
 )
 wall = (
-    img_clip("img/background/wall.png", SCREEN_SIZE, 30.22, 9.31)
+    img_clip("img/background/wall.png", SCREEN_SIZE, 32, 10.7)
 )
 
 cat1 = (
@@ -27,15 +31,15 @@ cat2 = (
     .with_effects([vfx.CrossFadeIn(0.5)])
 )
 cat3 = (
-    cat_clip("cat6", 19.1, 4.7, (480, 300))
+    cat_clip("cat6", 19.1, 4.9, (480, 300))
     .with_effects([vfx.CrossFadeOut(0.5)])
 )
 cat4 = (
-    cat_clip("cat4", 30.22, 3.08)
+    cat_clip("cat4", 32, 3.1)
     .with_effects([vfx.CrossFadeIn(0.5)])
 )
 cat5 = (
-    cat_clip("cat1", 33.3, 1.75)
+    cat_clip("cat1", 35.1, 2.1)
     .with_effects([vfx.CrossFadeOut(0.5)])
 )
 
@@ -62,41 +66,39 @@ tomadasX = [(
     ) for i in range(3)
 ]
 c_response = (
-    img_clip("img/questions/tomadas/c.png", (650, 640), 23.8, 6.42, ("left", "top"))
-    .with_effects([vfx.CrossFadeIn(1)])
+    img_clip("img/questions/tomadas/c.png", (750, 940), 24, 1.5)
+    .with_effects([vfx.CrossFadeIn(0.5)])
 )
 cpp_response = (
-    img_clip("img/questions/tomadas/cpp.png", (640, 640), 24.6, 5.62, (655, "top"))
-    .with_effects([vfx.CrossFadeIn(1)])
+    img_clip("img/questions/tomadas/cpp.png", (750, 940), 25.5, 1.5)
 )
 js_response = (
-    img_clip("img/questions/tomadas/js.png", (620, 640), 25.6, 4.62, ("right", "top"))
-    .with_effects([vfx.CrossFadeIn(1)])
+    img_clip("img/questions/tomadas/js.png", (900, 800), 27, 1.5)
 )
 py_response = (
-    img_clip("img/questions/tomadas/py.png", (1400, 430), 26.75, 3.47, ("center", "bottom"))
-    .with_effects([vfx.CrossFadeIn(1)])
+    img_clip("img/questions/tomadas/py.png", (1100, 500), 28.5, 1.5)
 )
 rs_response = (
-    img_clip("img/questions/tomadas/rs.png", (1650, 645), 27.8, 2.42, ("center", "top"))
-    .with_effects([vfx.CrossFadeIn(1)])
+    img_clip("img/questions/tomadas/rs.png", (1320, 790), 30, 2)
+    .with_effects([vfx.CrossFadeOut(0.5)])
 )
-c_cpp = (
-    img_clip("img/imgs/c_cpp.jpg", (SCREEN_SIZE[0]*0.8, SCREEN_SIZE[1]*0.65), 35.05, 4.48, ("center", 200))
+c_cpp_car = (
+    img_clip("img/imgs/c_cpp.jpg", (SCREEN_SIZE[0]*0.8, SCREEN_SIZE[1]*0.7), 37.2, 4.2)
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
 )
 
 audio = audio_clip([
     ("cena4-1", 0),
-    ("cenaa", 11.28),
-    ("cena4-3", 30.22)
+    ("cena4-2", 11.28),
+    ("cena4-3", 32.2)
 ])
 
 subtitle = subtitle_clip("cena4")
 
-clips = [school, room, wall, cat1, cat2, cat3, cat4 , cat5, question1, question2, 
-         tomada] + tomadas + tomadasX + [c_response, cpp_response, 
-         js_response, py_response, rs_response, c_cpp, subtitle]
+clips = [school, room, matrix, wall, cat1, cat2, cat3, cat4, 
+         cat5, question1, question2, tomada] + tomadas + \
+         tomadasX + [c_response, cpp_response, js_response, 
+         py_response, rs_response, c_cpp_car, subtitle]
 
 video = video_clip(clips, audio.mix)
 
