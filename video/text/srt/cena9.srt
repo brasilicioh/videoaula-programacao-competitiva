@@ -103,9 +103,9 @@ Assim como nas outras questões, mostramos cinco soluções
 em cinco linguagens diferentes
 
 27
-00:01:09,799 --> 00:01:17,300
+00:01:09,799 --> 00:01:22,300
 C, C++, JavaScript, Python e Rust
 
 28
-00:01:17,400 --> 00:01:18,400
+00:01:22,400 --> 00:01:23,400
 .

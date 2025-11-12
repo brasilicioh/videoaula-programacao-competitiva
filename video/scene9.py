@@ -50,7 +50,8 @@ img2 = (
 )
 
 gif1 = (
-    gif_clip("img/imgs/matrix.gif", SCREEN_SIZE, 70, 12.4)
+    gif_clip("img/imgs/matrix.gif", SCREEN_SIZE, 70, 13.4)
+    .with_effects([vfx.CrossFadeOut(0.5)])
 )
 
 leetcodelogo = (
@@ -95,7 +96,7 @@ ans5 = (
 # se lembre de colocar todas variaveis no array clips seguindo a ordem de prioridade do array
 # ao terminar a codificacao, organize as variaveis em ordem igual a ordem do array
 
-audio = audio_clip("Fcena9") # pega o cena9.mp3, a cena total tem 1:13 min
+audio = audio_clip("cena9") # pega o cena9.mp3, a cena total tem 1:13 min
 
 subtitle = subtitle_clip("cena9") # pega o srt da cena9
 
