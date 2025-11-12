@@ -9,21 +9,25 @@ from clips import (
     SCREEN_SIZE
 )
 
-room_background = (
+room_bg = (
     img_clip("img/background/bedroom.png", SCREEN_SIZE, 0, 3.6)
     .with_effects([vfx.CrossFadeOut(1)])
 )
-university_background = (
+texas_bg = (
     img_clip("img/imgs/texas.jpg", SCREEN_SIZE, 3.5, 11.2)
     .with_effects([vfx.CrossFadeIn(1), vfx.CrossFadeOut(1)])
 )
-world_background = (
-    img_clip("img/imgs/mundo.jpg", SCREEN_SIZE, 14.6, 3)
-    .with_effects([vfx.CrossFadeIn(1), vfx.CrossFadeOut(1)])
+world_bg_gif = (
+    gif_clip("img/imgs/mundo_gira.gif", (SCREEN_SIZE[0], SCREEN_SIZE[1]*0.9), 14.6, 3, ("center", "top"))
+    .with_effects([vfx.CrossFadeIn(1), vfx.CrossFadeOut(0.7)])
 )
-icpc_background = (
-    img_clip("img/logo/icpc.jpg", SCREEN_SIZE, 17.6, 6.8)
-    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
+icpc_bg = (
+    img_clip("img/logo/icpc.png", SCREEN_SIZE, 17.5, 6.9)
+    .with_effects([vfx.CrossFadeIn(0.7), vfx.CrossFadeOut(0.5)])
+)
+room1_bg = (
+    img_clip("img/background/room1.png", SCREEN_SIZE, 24.3, 0.7)
+    .with_effects([vfx.CrossFadeIn(0.5)])
 )
 
 cat1 = (
@@ -31,7 +35,7 @@ cat1 = (
 )
 cat2 = (
     cat_clip("cat5", 5.2, 6)
-    .with_effects([vfx.CrossFadeIn(0.75)])
+    .with_effects([vfx.CrossFadeIn(0.5)])
 )
 
 year70 = (
@@ -59,8 +63,8 @@ audio = audio_clip("cena2")
 
 subtitle = subtitle_clip("cena2")
 
-clips = [room_background, university_background, world_background, 
-         icpc_background, cat1, cat2, year70, date_gif, team1, team2,
+clips = [room_bg, texas_bg, world_bg_gif, icpc_bg, room1_bg,
+         cat1, cat2, year70, date_gif, team1, team2,
          team3, subtitle]
 
 video = video_clip(clips, audio.mix)

@@ -29,22 +29,22 @@ school_bg = (
 )
 
 cat1 = (
-    cat_clip("cat2", 0, 8)
-    .with_effects([vfx.CrossFadeOut(0.5)])
+    cat_clip("cat2", 0, 8, (900, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
 )
 cat2 = (
     cat_clip("cat3", 8, 8.4, ("left", "center"))
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
 )
 cat3 = (
-    cat_clip("cat6", 39.1, 5.5)
+    cat_clip("cat6", 39.1, 5.7)
     .with_effects([vfx.CrossFadeIn(0.5)])
 )
 cat4 = (
-    cat_clip("cat4", 44.6, 5.1)
+    cat_clip("cat4", 44.8, 5.1)
 )
 cat5 = (
-    cat_clip("cat2", 49.7, 5.8)
+    cat_clip("cat2", 49.9, 5.6)
     .with_effects([vfx.CrossFadeOut(0.5)])
 )
 cat6 = (
@@ -57,7 +57,7 @@ cat7 = (
 )
 
 helloworld = (
-    img_clip("img/imgs/meme_helloworld.jpg", (600, 600), 2.5, 5.1, (90, 100))
+    img_clip("img/imgs/meme_helloworld.jpg", (770, 770), 2.5, 5.1, (90, 100))
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
 )
 io_img = (
@@ -65,11 +65,11 @@ io_img = (
     .with_effects([vfx.CrossFadeIn(1), vfx.CrossFadeOut(0.5)])
 )
 brainIA = (
-    img_clip("img/imgs/sciencephile.jpg", (530, 530), 20.3, 3.7, (100, 100))
-    .with_effects([vfx.CrossFadeIn(0.5)])
+    img_clip("img/imgs/sciencephile.jpg", (530, 530), 20.3, 3.7, ("center", 10))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
 )
 submit_gif = (
-    gif_clip("img/imgs/submit.gif", (SCREEN_SIZE[0] * 0.38, SCREEN_SIZE[1] * 0.38), 20.6, 3.4, (850, 300))
+    gif_clip("img/imgs/submit.gif", (852, 520), 20.6, 3.4, ("center", 590))
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
 )
 io_gif = (

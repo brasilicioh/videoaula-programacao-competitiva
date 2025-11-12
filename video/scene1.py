@@ -19,7 +19,7 @@ room_bg= (
 
 cat1 = (
     cat_clip("cat1", 2.25, 3)
-    .with_effects([vfx.CrossFadeIn(0.7)])
+    .with_effects([vfx.CrossFadeIn(0.5)])
 )
 cat2 = (
     cat_clip("cat2", 5.25, 3.9)
@@ -32,19 +32,19 @@ cat4 = (
 )
 
 competitive_prog = (
-    img_clip("img/imgs/competitive-programming.png", (500, 500), 10.2, 6.8, (1400, 400))
+    img_clip("img/imgs/competitive-programming.png", (500, 500), 10.2, 6.8, (1400, 460))
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 logic_meme = (
-    img_clip("img/imgs/raciociocio_logico.jpg", (420, 260), 12.5, 4.5, (50, 20))
+    img_clip("img/imgs/raciociocio_logico.jpg", (740, 380), 12.5, 4.5, (50, 20))
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 math_meme = (
-    img_clip("img/imgs/matematica.jpeg", (360, 260), 13.3, 3.7, (120, 290))
+    img_clip("img/imgs/matematica.jpeg", (500, 540), 13.3, 3.7, (120, 430))
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 brainAI = (
-    img_clip("img/imgs/sciencephile.jpg", (330, 330), 14.1, 2.9, (180, 590))
+    img_clip("img/imgs/sciencephile.jpg", (400, 400), 14.1, 2.9, (1300, 15))
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 
@@ -52,9 +52,12 @@ audio = audio_clip("cena1", 3)
 
 subtitle = subtitle_clip("cena1")
 
-clips = [black_bg, room_bg, cat1, cat2, cat3, cat4, 
-         competitive_prog, logic_meme, math_meme, brainAI, 
-         subtitle]
+clips = [
+    black_bg, room_bg, 
+    cat1, cat2, cat3, cat4, 
+    competitive_prog, logic_meme, math_meme, brainAI, 
+    subtitle
+]
 
 video = video_clip(clips, audio.mix)
 

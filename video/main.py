@@ -13,4 +13,4 @@ for i in range(0, len(arquivos)):
 
 video_final = concatenate_videoclips(clips, method="compose")
 
-video_final.write_videofile("videoaula.mp4", fps=24)
+video_final.write_videofile("../videoaula.mp4", fps=24)
