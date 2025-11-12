@@ -23,7 +23,7 @@ def ease_inout(t: float) -> float:
 # ao terminar a codificacao, organize as variaveis em ordem igual a ordem do array
 
 room_background = (
-    img_clip("img/background/room1.png", SCREEN_SIZE, 0, 56)
+    img_clip("img/background/room1.png", SCREEN_SIZE, 0, 56.45)
     .with_effects([vfx.CrossFadeIn(1)])
 )
 
@@ -39,16 +39,16 @@ cat2 = (
 #TODO: gato fica desenha no mesmo lugar que antes,
 # deixando uma marca preta e não renderizando parte do gato
 cat3 = (
-    cat_clip("cat3", 10.5, 1)
+    cat_clip("cat3", 10.5, 1.25)
     .with_effects([vfx.MirrorX()])
 )
 
 cat4 = (
-    cat_clip("cat3", 11.5, 1.75)
+    cat_clip("cat3", 11.75, 1.7) # 25
 )
 
 cat5 = (
-    cat_clip("cat5", 13.25, 32.67) # until 1.3700
+    cat_clip("cat5", 13.45, 18.05) # until 1.3700
     .with_position(lambda t: (
         # this makes sense pls, don't mess with it
         max(SCREEN_SIZE[0]/2 - 300 - 10 - 640*ease_inout(min(t/2, 1)), 10),
@@ -56,18 +56,22 @@ cat5 = (
 )
 
 cat6 = (
-    cat_clip("cat2", 45.82, 10.18)
+    cat_clip("cat2", 31.5, 24.95)
+    .with_position(lambda t: (
+        # this makes sense pls, don't mess with it
+        (SCREEN_SIZE[0]/2 - 300 - 10) - (max(SCREEN_SIZE[0]/2 - 300 - 10 - 640*ease_inout(min(t/2, 1)), 150)),
+        "center"))
 )
 
 mundo = (
     img_clip("img/imgs/mundo.jpg", (SCREEN_SIZE[0]*0.3, SCREEN_SIZE[1]*0.3),
-             5, 3, (SCREEN_SIZE[0]*3/4, "center"))
+             5, 3, (SCREEN_SIZE[0]*5/8, "center"))
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.25)])
 )
 
-icpc_competition = (
-    img_clip("img/imgs/icpc_teams.jpg", (SCREEN_SIZE[0]*0.5, SCREEN_SIZE[1]*0.5),
-             15.5, 8, (SCREEN_SIZE[0]*3/8, "center"))
+sbc_competition = (
+    img_clip("img/imgs/sbc_ginasio.png", (SCREEN_SIZE[0]*0.5, SCREEN_SIZE[1]*0.5),
+             15.25, 8.25, (SCREEN_SIZE[0]*3/8, "center"))
     .with_effects([vfx.CrossFadeIn(0.5)])
 )
 
@@ -111,20 +115,46 @@ equipe_pessoa3 = (
     .with_effects([vfx.CrossFadeIn(0.5)])
 )
 
+ballon1 = (
+    img_clip("img/imgs/balao1.png", (SCREEN_SIZE[0]*0.2, SCREEN_SIZE[1] * 0.4),
+             33, 4, (SCREEN_SIZE[0]*5/8, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
+)
+# Images cross fade into eachother
+ballon2 = (
+    img_clip("img/imgs/balao2.png", (SCREEN_SIZE[0]*0.2, SCREEN_SIZE[1] * 0.4),
+             36, 2.5, (SCREEN_SIZE[0]*5/8, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
+)
+
+# Nas competiçoes físicas...
+
+sbc_pessoas = (
+    img_clip("img/imgs/sbc_pessoas.jpg", ((SCREEN_SIZE[0]*0.4, SCREEN_SIZE[1] * 0.4)),
+             40, 5, (SCREEN_SIZE[0]*(1/2 + 1/16), "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
+)
+
+icpc_competition = (
+    img_clip("img/imgs/icpc_teams.jpg", (SCREEN_SIZE[0]*0.5, SCREEN_SIZE[1]*0.5),
+             46, 10.45, (SCREEN_SIZE[0]*(1/2 + 1/32), "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.25)])
+)
+
 audio = audio_clip("cena6") # pega o cena6.mp3
 
 subtitle = subtitle_clip("cena6") # pega o srt da cena6
 
 clips = [room_background,
          cat1, cat2, cat3, cat4, cat5, cat6,
-         mundo, icpc_competition,
+         mundo, sbc_competition,
          maratona_logo, icpc_logo, obi_logo, ioi_logo,
          equipe_pessoa1, equipe_pessoa2, equipe_pessoa3,
+         sbc_pessoas, icpc_competition,
+         ballon1, ballon2,
          subtitle] # adicione nessa lista todos os clips seguindo 
                    # essa ordem: backgrounds -> cats -> imgs -> subtitle
 
 video = video_clip(clips, audio.mix) # faz video com o audio e tudo que tiver no array clips
 
-video = video.subclipped(14, 20)
-
-video.write_videofile("clips/cena6.mp4", fps=12) # exporta o audio
+video.write_videofile("clips/cena6.mp4", fps=24, threads=32) # exporta o audio
