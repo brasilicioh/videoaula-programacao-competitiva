@@ -8,20 +8,66 @@ from clips import (
     SCREEN_SIZE # tamanho constante de tela -> Full HD
 )
 
-# aqui, utilize o cat_clip para fazer gatos
-# img_clip para fazer fotos e background
-# se necessario, importe outras coisas para fazer mais clips
-# veja a cena 1 e 2 para tomar como exemplo
+background = (
+    img_clip("img/background/school.png", SCREEN_SIZE,
+             0, 89)
+)
 
-# recomendacao: na construcao do video, coloque as variaveis em ordem cronologica
-# se lembre de colocar todas variaveis no array clips seguindo a ordem de prioridade do array
-# ao terminar a codificacao, organize as variaveis em ordem igual a ordem do array
+cat1 = (
+    cat_clip("cat2", 0, 15)
+)
+
+sbc_logo = (
+    img_clip("img/logo/sbc.jpg", (SCREEN_SIZE[0]*0.3, SCREEN_SIZE[1]*0.3),
+             2, 3, (1244, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5)])
+)
+
+fundamental = (
+    img_clip("img/imgs/alunos.png", (SCREEN_SIZE[0]*0.3, SCREEN_SIZE[1]*0.3),
+             7, 1.7, (1244, "center"))
+    .with_effects([vfx.Crop(x1 = 0, x2=320), vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
+)
+ens_medio = (
+    img_clip("img/imgs/alunos.png", (SCREEN_SIZE[0]*0.3, SCREEN_SIZE[1]*0.3),
+             8.2, 1.8, (1244, "center"))
+    .with_effects([vfx.Crop(x1=256), vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
+)
+
+#TODO: pegar imagem da Unicamp
+
+obi_logo = (
+    img_clip("img/logo/obi.png", (300, 500),
+             9.5, 5.25, (1244, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
+)
+
+cat2 = (
+    cat_clip("cat3", 15, 20)
+)
+
+chorando = (
+    img_clip("img/imgs/chorando.png", (SCREEN_SIZE[0]*0.3, SCREEN_SIZE[1]*0.3),
+             17.2, 2.8, (100, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
+)
+
+programacao = (
+    img_clip("img/imgs/computador.jpg", (SCREEN_SIZE[0]*0.3, SCREEN_SIZE[1]*0.3),
+             18, 2, (1244, "center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
+)
 
 audio = audio_clip("cena7") # pega o cena7.mp3
 
 subtitle = subtitle_clip("cena7") # pega o srt da cena7
 
-clips = [subtitle] # adicione nessa lista todos os clips seguindo 
+clips = [background,
+         cat1, cat2,
+         sbc_logo, obi_logo,
+         fundamental, ens_medio,
+         chorando, programacao,
+         subtitle] # adicione nessa lista todos os clips seguindo 
                    # essa ordem: backgrounds -> cats -> imgs -> subtitle
 
 video = video_clip(clips, audio.mix) # faz video com o audio e tudo que tiver no array clips
