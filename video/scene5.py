@@ -53,7 +53,7 @@ cartaz_sbc = (
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
 )
 pessoas_sbc = (
-    img_clip("img/imgs/sbc_pessoas.jpg", (SCREEN_SIZE[0]*0.7, SCREEN_SIZE[1]*0.7), 17.8, 1.9, (700, "center"))
+    img_clip("img/imgs/sbc_pessoas.jpg", (SCREEN_SIZE[0]*0.65, SCREEN_SIZE[1]*0.65), 17.8, 1.9, (600, "center"))
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(1)])
 )
 obi_logo = (
@@ -73,6 +73,6 @@ clips = [wall, competitive_bg, black_bg, cat1, cat2, cat3, cat4,
          sbc_logo, ano1978, cartaz_sbc, pessoas_sbc, obi_logo, 
          maratona_logo, subtitle] 
 
-video = video_clip(clips, audio.mix).subclipped(18)
+video = video_clip(clips, audio.mix)
 
 video.write_videofile("clips/cena5.mp4", fps=24)

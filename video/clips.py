@@ -69,6 +69,6 @@ generator_text = lambda txt: TextClip(
     color="white",
     stroke_color="black",
     stroke_width=2,
-    method="caption",
-    size=(SCREEN_SIZE[0] - 200, None)
+    method="label",
+    size=(SCREEN_SIZE[0] - 200, 100)
 )

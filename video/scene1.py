@@ -18,33 +18,33 @@ room_bg= (
 )
 
 cat1 = (
-    cat_clip("cat1", 2.25, 3.2)
+    cat_clip("cat1", 2.25, 3)
     .with_effects([vfx.CrossFadeIn(0.7)])
 )
 cat2 = (
-    cat_clip("cat2", 5.45, 3.9)
+    cat_clip("cat2", 5.25, 3.9)
 )
 cat3 = (
-    cat_clip("cat4", 9.35, 4.65)
+    cat_clip("cat4", 9.15, 4.85)
 )
 cat4 = (
     cat_clip("cat2", 14, 6)
 )
 
 competitive_prog = (
-    img_clip("img/imgs/competitive-programming.png", (500, 500), 11, 6, (1400, 400))
+    img_clip("img/imgs/competitive-programming.png", (500, 500), 10.2, 6.8, (1400, 400))
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 logic_meme = (
-    img_clip("img/imgs/raciociocio_logico.jpg", (420, 260), 12.8, 4.2, (50, 20))
+    img_clip("img/imgs/raciociocio_logico.jpg", (420, 260), 12.5, 4.5, (50, 20))
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 math_meme = (
-    img_clip("img/imgs/matematica.jpeg", (360, 260), 13.6, 3.4, (120, 290))
+    img_clip("img/imgs/matematica.jpeg", (360, 260), 13.3, 3.7, (120, 290))
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 brainAI = (
-    img_clip("img/imgs/sciencephile.jpg", (330, 330), 14.4, 2.6, (180, 590))
+    img_clip("img/imgs/sciencephile.jpg", (330, 330), 14.1, 2.9, (180, 590))
     .with_effects([vfx.CrossFadeIn(0.4), vfx.CrossFadeOut(0.4)])
 )
 
