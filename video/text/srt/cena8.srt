@@ -59,37 +59,9 @@ que passe em todos testes em um tempo rápido
 Agora, novamente, há cinco respostas com cinco linguagens
 
 16
-00:00:46,631 --> 00:00:50,930
+00:00:46,631 --> 00:00:54,000
 de programação diferentes: C, C++, JavaScript, Python e Rust
 
 17
-00:00:52,480 --> 00:00:55,050
-Cada código dessa questão e da questão anterior
-
-18
-00:00:55,051 --> 00:00:57,230
-foram feitos pelos autores dessa videoaula
-
-19
-00:00:58,000 --> 00:01:00,300
-Poderíamos tirar um tempo para explicar o que cada
-
-20
-00:01:00,301 --> 00:01:03,500
-código faz. Mas essa videoaula ficaria muito grande
-
-21
-00:01:04,100 --> 00:01:07,570
-Então, a tarefa de casa de vocês é: ler as questões, pensar
-
-22
-00:01:07,571 --> 00:01:09,460
-na ideia de como resolver e depois
-
-23
-00:01:09,461 --> 00:01:11,500
-tentar interpretar o que cada código faz
-
-24
-00:01:12,000 --> 00:01:13,000
+00:00:54,100 --> 00:00:55,100
 .
