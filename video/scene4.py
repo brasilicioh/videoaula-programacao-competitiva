@@ -19,7 +19,7 @@ matrix = (
     gif_clip("img/imgs/matrix.gif", SCREEN_SIZE, 24, 8)
 )
 wall = (
-    img_clip("img/background/wall.png", SCREEN_SIZE, 32, 10.7)
+    img_clip("img/background/wall.png", SCREEN_SIZE, 32, 10.2)
 )
 
 cat1 = (

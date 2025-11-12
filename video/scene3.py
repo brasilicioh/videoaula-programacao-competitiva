@@ -14,7 +14,6 @@ room1_bg = (
 )
 leetcode1_bg = (
     img_clip("img/imgs/leetcode1.png", SCREEN_SIZE, 16.5, 2)
-    .with_effects([vfx.CrossFadeIn(0.5)])
 )
 leetcode2_bg = (
     img_clip("img/imgs/leetcode2.png", SCREEN_SIZE, 18.5, 2.8)
