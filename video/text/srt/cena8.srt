@@ -1,5 +1,5 @@
 1
-00:00:00,200 --> 00:00:02,300
+00:00:00,200 --> 00:00:02,750
 Lembra daquela questão que mostramos no início do vídeo?
 
 2
@@ -7,11 +7,11 @@ Lembra daquela questão que mostramos no início do vídeo?
 Ela é da OBI 2013, primeira fase, nível júnior
 
 3
-00:00:07,550 --> 00:00:10,740
+00:00:07,550 --> 00:00:10,350
 Bem, ela não é tão difícil, como você pôde ver
 
 4
-00:00:10,741 --> 00:00:13,000
+00:00:10,351 --> 00:00:13,000
 em python ela foi feita em apenas duas linhas!
 
 5
@@ -23,19 +23,19 @@ Mostrarei agora mais uma questão da OBI
 Ela é mais recente e mais desafiadora
 
 7
-00:00:19,000 --> 00:00:22,800
+00:00:18,550 --> 00:00:22,200
 Intervalo Distinto é uma questão da prova de 2023
 
 8
-00:00:22,801 --> 00:00:24,400
+00:00:22,201 --> 00:00:24,250
 da fase 2A, nível 2
 
 9
-00:00:25,100 --> 00:00:27,300
+00:00:24,700 --> 00:00:27,000
 Dê um pause no vídeo, leia a questão e
 
 10
-00:00:27,301 --> 00:00:29,530
+00:00:27,001 --> 00:00:28,760
 tente pensar como você faria ela
 
 11
@@ -43,7 +43,7 @@ tente pensar como você faria ela
 Note que a descrição dessa questão é até menor que a anterior
 
 12
-00:00:35,050 --> 00:00:37,230
+00:00:35,050 --> 00:00:37,100
 Mas implementá-la é bem mais desafiador
 
 13
@@ -55,13 +55,17 @@ E lembrando: você tem que conseguir implementar um algoritmo
 que passe em todos testes em um tempo rápido
 
 15
-00:00:43,400 --> 00:00:46,630
-Agora, novamente, há cinco respostas com cinco linguagens
+00:00:43,400 --> 00:00:45,720
+Agora, novamente, há cinco respostas com 
 
 16
-00:00:46,631 --> 00:00:54,000
-de programação diferentes: C, C++, JavaScript, Python e Rust
+00:00:45,721 --> 00:00:48,030
+cinco linguagens de programação diferentes
 
 17
-00:00:54,100 --> 00:00:55,100
+00:00:48,200 --> 00:00:54,630
+C, C++, JavaScript, Python e Rust
+
+18
+00:00:55,000 --> 00:00:56,000
 .
