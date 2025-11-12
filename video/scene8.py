@@ -25,7 +25,7 @@ interval_background = (
     .with_effects([vfx.CrossFadeIn(0.5)]) #adicione 1 segundo a mais na cena, para dar tempo do fade
 )
 university_background = (
-    img_clip("img/background/room1.png", SCREEN_SIZE, 31.0, 41.0 )
+    img_clip("img/background/room1.png", SCREEN_SIZE, 31.0, 22.0 )
     .with_effects([vfx.CrossFadeIn(1)]) #adicione 1 segundo a mais na cena, para dar tempo do fade
     .with_effects([vfx.CrossFadeOut(1)])
 )
@@ -48,9 +48,7 @@ cat6 = (
 cat2 = (
     cat_clip("cat2", 43, 10,position=("center", 500))
 )
-cat1 = (
-    cat_clip("cat1", 53, 19)
-)
+
 
 img1 = (
     img_clip("img/questions/distinto/c.png", (500, 500), 43, 10, (50, 0))
@@ -77,13 +75,12 @@ img5 = (
 audio = audio_clip([
     ("cena8-1", 0), # pega o cena8-1 e começa em 0 31s
     ("cena8-2", 31.53), # pega o cena8-2 -> start definido pelo tempo no srt 27s
-    ("cena8-3", 58) # pega o cena8-3 -> start definido pelo tempo no srt
 ])
 
 subtitle = subtitle_clip("cena8") # pega o srt da cena8
 
 clips = [wall_background, interval_background, university_background,
-        cat1, cat2, cat3, cat4, cat5, cat6,
+        cat2, cat3, cat4, cat5, cat6,
         img1, img2, img3, img4, img5,
         subtitle
         ] # adicione nessa lista todos os clips seguindo 
