@@ -1,111 +1,59 @@
 1
-00:00:00,000 --> 00:00:02,020
-Atualmente, existem muitos software que
+00:00:00,000 --> 00:00:02,300
+No decorrer da aula aprendemos muitas coisas
 
 2
-00:00:02,021 --> 00:00:03,900
-têm a mesma ideia do esporte.
+00:00:02,450 --> 00:00:05,400
+como: o que é e como funciona a programação competitiva
 
 3
-00:00:04,460 --> 00:00:06,800
-Eles são usados para preparação para torneios
+00:00:05,700 --> 00:00:08,520
+Em resumo, a programação competitiva não é nada mais nada
 
 4
-00:00:06,801 --> 00:00:10,050
-treinos diários, entrevistas de emprego, torneios online
+00:00:08,521 --> 00:00:10,980
+menos que um esporte que testa seu raciocínio lógico
 
 5
-00:00:10,051 --> 00:00:12,240
-e entre várias outras funcionalidades
+00:00:10,346 --> 00:00:12,600
+na construção de linhas de código
 
 6
-00:00:12,700 --> 00:00:15,840
-Essas plataformas oferecem problemas de vários níveis e são
+00:00:12,800 --> 00:00:15,900
+Muitas das vantagens de praticar esse esporte são as melhorias
 
 7
-00:00:15,841 --> 00:00:18,200
-ótimas para quem quer praticar algoritmos em diferentes
+00:00:15,901 --> 00:00:18,950
+dos raciocínios lógicos, matemáticos e computacionais
 
 8
-00:00:18,201 --> 00:00:19,960
-linguagens de programação
+00:00:19,100 --> 00:00:22,400
+Além de aprimorar suas habilidades na construção de algoritmos
 
 9
-00:00:20,320 --> 00:00:23,800
-Existem várias plataformas diferentes, entre as mais populares
+00:00:22,750 --> 00:00:25,880
+A programação competitiva não se resume apenas a fazer códigos
 
 10
-00:00:23,801 --> 00:00:27,440
-LeetCode, CodeForces, HackerRank e Beecrowd
+00:00:26,200 --> 00:00:28,300
+trata-se também de lógica, criatividade
 
 11
-00:00:27,839 --> 00:00:30,920
-Por mais que distintas, todas funcionam da mesma maneira
+00:00:28,301 --> 00:00:30,140
+e na diversão em resolver problemas
 
 12
-00:00:31,559 --> 00:00:33,820
-São plataformas que apresentam diversos problemas para que os
+00:00:30,340 --> 00:00:32,500
+Espero que você tenha gostado dessa videoaula
 
 13
-00:00:33,821 --> 00:00:36,100
-usuários possam responder
+00:00:32,650 --> 00:00:34,300
+E também espero que você também tenha
 
 14
-00:00:36,680 --> 00:00:38,490
-Alguns deles apresentam um ranking de
+00:00:34,301 --> 00:00:35,850
+se interessado por esse esporte
 
 15
-00:00:38,491 --> 00:00:40,100
-jogadores com maior pontuação
-
-16
-00:00:40,399 --> 00:00:43,460
-Outros, de forma periódica, organizam eventos online
-
-17
-00:00:43,461 --> 00:00:45,000
-para que os jogadores possam competir
-
-18
-00:00:45,660 --> 00:00:48,900
-Em síntese, é um espaço de aprendizagem, aperfeiçoamento
-
-19
-00:00:48,901 --> 00:00:50,300
-e treino para o esporte
-
-20
-00:00:50,900 --> 00:00:53,300
-Agora, iremos mostrar mais uma questão
-
-21
-00:00:53,840 --> 00:00:56,250
-Essa foi retirada diretamente do LeetCode
-
-22
-00:00:56,430 --> 00:00:58,300
-Ela é a questão número um do site.
-
-23
-00:00:58,880 --> 00:01:02,150
-Seu nível é catalogado como fácil, porém o desafio está em
-
-24
-00:01:02,151 --> 00:01:04,380
-construir o algoritmo mais rápido possível
-
-25
-00:01:05,000 --> 00:01:08,000
-Assim como nas outras questões, mostramos cinco soluções
-
-26
-00:01:08,001 --> 00:01:09,640
-em cinco linguagens diferentes
-
-27
-00:01:09,799 --> 00:01:22,300
-C, C++, JavaScript, Python e Rust
-
-28
-00:01:22,400 --> 00:01:23,400
+00:00:36,000 --> 00:00:37,000
 .
