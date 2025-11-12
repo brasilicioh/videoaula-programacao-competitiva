@@ -1,4 +1,4 @@
-from moviepy import vfx
+from moviepy import vfx, ColorClip
 from clips import (
     subtitle_clip,
     audio_clip,
@@ -33,10 +33,7 @@ matrix = (
     gif_clip("img/imgs/matrix.gif", SCREEN_SIZE, 48, 8.1)
     .with_effects([vfx.CrossFadeOut(0.5)])
 )
-room_bg2 = (
-    img_clip("img/background/room1.png", SCREEN_SIZE, 56.1, 1.2)
-    .with_effects([vfx.CrossFadeIn(1)])
-)
+
 
 cat1 = (
     cat_clip("cat4", 0, 3.2)
@@ -82,6 +79,12 @@ img5 = (
     .with_effects([vfx.CrossFadeOut(0.5)])
 )
 
+black_bg = (
+    ColorClip(SCREEN_SIZE, color=(0, 0, 0))
+    .with_start(56)
+    .with_duration(0.5)
+)
+
 audio = audio_clip([
     ("cena8-1", 0),
     ("cena8-2", 31.53),
@@ -90,8 +93,8 @@ audio = audio_clip([
 subtitle = subtitle_clip("cena8")
 
 clips = [wall_background, interval1_bg, interval2_bg, interval3_bg, 
-         room_bg, matrix, room_bg2, cat1, cat2, cat3, cat4, cat5, 
-         cat6, cat7, img1, img2, img3, img4, img5, subtitle]
+         room_bg, matrix, cat1, cat2, cat3, cat4, cat5, 
+         cat6, cat7, img1, img2, img3, img4, img5, black_bg, subtitle]
 
 video = video_clip(clips, audio.mix)
 
