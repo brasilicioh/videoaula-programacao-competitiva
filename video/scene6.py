@@ -31,16 +31,12 @@ cat1 = (
     cat_clip("cat4", 0, 8.7)
 )
 
-# vai ter que fazer uma gambiarra aqui, o vfx.MirrorX deixa um espaço preto atrás
 cat2 = (
     cat_clip("cat3", 8.7, 1.8)
 )
 
-#TODO: gato fica desenha no mesmo lugar que antes,
-# deixando uma marca preta e não renderizando parte do gato
 cat3 = (
-    cat_clip("cat3", 10.5, 1.25)
-    .with_effects([vfx.MirrorX()])
+    cat_clip("cat3_lado", 10.5, 1.25)
 )
 
 cat4 = (
@@ -59,7 +55,7 @@ cat6 = (
     cat_clip("cat2", 31.5, 24.95)
     .with_position(lambda t: (
         # this makes sense pls, don't mess with it
-        (SCREEN_SIZE[0]/2 - 300 - 10) - (max(SCREEN_SIZE[0]/2 - 300 - 10 - 640*ease_inout(min(t/2, 1)), 150)),
+        (SCREEN_SIZE[0]/2 - 300 - 10) - (max(SCREEN_SIZE[0]/2 - 300 - 10 - 640*ease_inout(min(t/2, 1)), 430)),
         "center"))
 )
 
@@ -116,28 +112,28 @@ equipe_pessoa3 = (
 )
 
 ballon1 = (
-    img_clip("img/imgs/balao1.png", (SCREEN_SIZE[0]*0.2, SCREEN_SIZE[1] * 0.4),
-             33, 4, (SCREEN_SIZE[0]*5/8, "center"))
+    img_clip("img/imgs/balao1.png", (SCREEN_SIZE[0]*0.4, SCREEN_SIZE[1] * 0.8),
+             33, 4, (SCREEN_SIZE[0]*(1/2), "center"))
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
 )
 # Images cross fade into eachother
 ballon2 = (
-    img_clip("img/imgs/balao2.png", (SCREEN_SIZE[0]*0.2, SCREEN_SIZE[1] * 0.4),
-             36, 2.5, (SCREEN_SIZE[0]*5/8, "center"))
+    img_clip("img/imgs/balao2.png", (SCREEN_SIZE[0]*0.4, SCREEN_SIZE[1] * 0.8),
+             36, 2.5, (SCREEN_SIZE[0]*(1/2), "center"))
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
 )
 
 # Nas competiçoes físicas...
 
 sbc_pessoas = (
-    img_clip("img/imgs/sbc_pessoas.jpg", ((SCREEN_SIZE[0]*0.4, SCREEN_SIZE[1] * 0.4)),
-             40, 5, (SCREEN_SIZE[0]*(1/2 + 1/16), "center"))
+    img_clip("img/imgs/sbc_pessoas.jpg", ((SCREEN_SIZE[0]*0.5, SCREEN_SIZE[1] * 0.5)),
+             40, 5, (SCREEN_SIZE[0]*(1/2 - 1/32), "center"))
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
 )
 
 icpc_competition = (
     img_clip("img/imgs/icpc_teams.jpg", (SCREEN_SIZE[0]*0.5, SCREEN_SIZE[1]*0.5),
-             46, 10.45, (SCREEN_SIZE[0]*(1/2 + 1/32), "center"))
+             46, 10.45, (SCREEN_SIZE[0]*(1/2 - 1/32), "center"))
     .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.25)])
 )
 
