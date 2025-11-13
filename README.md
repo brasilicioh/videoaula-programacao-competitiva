@@ -15,9 +15,9 @@ The video lesson introduces the concept, history, and structure of competitive p
 
 ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
 
 
 ---
@@ -61,35 +61,8 @@ During the video lesson, we solved and discussed the following problems:
 |----------|---------|------|
 | **Tomadas** | OBI 2013 – First Phase (Junior Level) | [olimpiada.ic.unicamp.br/pratique/pj/2013/f1/tomadas/](https://olimpiada.ic.unicamp.br/pratique/pj/2013/f1/tomadas/) |
 | **Intervalo Distinto** | OBI 2023 – Second Phase (Level 2) | [OBI 2023 PDF](https://olimpiada.ic.unicamp.br/static/extras/obi2023/provas/ProvaOBI2023_f2p2.pdf) |
-| **Two Sum** | LeetCode | [leetcode.com/problems/two-sum](https://leetcode.com/problems/two-sum/description/) |
 
-Each problem was solved in **C**, **C++**, **Rust**, **Python** and **JavaScript** to illustrate how different languages can approach the same logic.
-
----
-
-## 🌍 International and National Organizations
-
-Competitive programming is supported by various global and national organizations that promote education, research, and innovation in computing:
-
-- **ACM** – Association for Computing Machinery  
-- **IEEE Computer Society** – Institute of Electrical and Electronics Engineers  
-- **IFIP** – International Federation for Information Processing  
-- **SBC** – Sociedade Brasileira de Computação (Brazilian Computing Society)
-
-These entities are responsible for organizing contests like **ICPC**, **IOI**, **OBI**, and **Maratona SBC**.
-
----
-
-## 🧩 Platforms for Practice
-
-Many online platforms help people train and compete in programming challenges:
-
-- [LeetCode](https://leetcode.com/)
-- [Codeforces](https://codeforces.com/)
-- [HackerRank](https://www.hackerrank.com/)
-- [Beecrowd](https://www.beecrowd.com.br/)
-
-These platforms provide a wide range of problems, ranking systems, and contests that simulate real competitive programming environments.
+Each problem was solved in **C**, **C++**, **JavaScript**, **Python**, and **Rust** to illustrate how different languages can approach the same logic. This repository also includes the solution to the [Two Sum](https://leetcode.com/problems/two-sum/description/) problem from [LeetCode](https://leetcode.com/).
 
 ---
 
