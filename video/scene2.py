@@ -63,9 +63,12 @@ audio = audio_clip("cena2")
 
 subtitle = subtitle_clip("cena2")
 
-clips = [room_bg, texas_bg, world_bg_gif, icpc_bg, room1_bg,
-         cat1, cat2, year70, date_gif, team1, team2,
-         team3, subtitle]
+clips = [
+    room_bg, texas_bg, world_bg_gif, icpc_bg, room1_bg,
+    cat1, cat2, 
+    year70, date_gif, team1, team2, team3, 
+    subtitle
+]
 
 video = video_clip(clips, audio.mix)
 

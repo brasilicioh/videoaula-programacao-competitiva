@@ -33,7 +33,11 @@ matrix = (
     gif_clip("img/imgs/matrix.gif", SCREEN_SIZE, 48, 8.1)
     .with_effects([vfx.CrossFadeOut(0.5)])
 )
-
+black_bg = (
+    ColorClip(SCREEN_SIZE, color=(0, 0, 0))
+    .with_start(56)
+    .with_duration(0.5)
+)
 
 cat1 = (
     cat_clip("cat4", 0, 3.2)
@@ -79,12 +83,6 @@ img5 = (
     .with_effects([vfx.CrossFadeOut(0.5)])
 )
 
-black_bg = (
-    ColorClip(SCREEN_SIZE, color=(0, 0, 0))
-    .with_start(56)
-    .with_duration(0.5)
-)
-
 audio = audio_clip([
     ("cena8-1", 0),
     ("cena8-2", 31.53),
@@ -92,9 +90,13 @@ audio = audio_clip([
 
 subtitle = subtitle_clip("cena8")
 
-clips = [wall_background, interval1_bg, interval2_bg, interval3_bg, 
-         room_bg, matrix, cat1, cat2, cat3, cat4, cat5, 
-         cat6, cat7, img1, img2, img3, img4, img5, black_bg, subtitle]
+clips = [
+    wall_background, interval1_bg, interval2_bg, interval3_bg, 
+    room_bg, matrix, black_bg,
+    cat1, cat2, cat3, cat4, cat5, cat6, cat7, 
+    img1, img2, img3, img4, img5, 
+    subtitle
+]
 
 video = video_clip(clips, audio.mix)
 

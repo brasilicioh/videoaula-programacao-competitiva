@@ -8,7 +8,6 @@ from clips import (
     SCREEN_SIZE
 )
 
-# 
 # t is a value from 0-1
 def ease_inout(t: float) -> float:
     return 2 * t * t if t < 0.5 else 1 - (-2 * t + 2)**2 / 2
@@ -136,14 +135,15 @@ audio = audio_clip("cena6")
 
 subtitle = subtitle_clip("cena6")
 
-clips = [room_background, school_bg,
-         cat1, cat2, cat3, cat4, cat5, cat6,
-         mundo, sbc_competition,
-         maratona_logo, icpc_logo, obi_logo, ioi_logo,
-         equipe_pessoa1, equipe_pessoa2, equipe_pessoa3,
-         sbc_pessoas, icpc_competition,
-         ballon1, ballon2,
-         subtitle]
+clips = [
+    room_background, school_bg,
+    cat1, cat2, cat3, cat4, cat5, cat6,
+    mundo, sbc_competition, maratona_logo, icpc_logo, 
+    obi_logo, ioi_logo, equipe_pessoa1, equipe_pessoa2, 
+    equipe_pessoa3, sbc_pessoas, icpc_competition, 
+    ballon1, ballon2,
+    subtitle
+]
 
 video = video_clip(clips, audio.mix)
 

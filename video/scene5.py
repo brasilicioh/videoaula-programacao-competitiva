@@ -19,8 +19,7 @@ competitive_bg = (
 black_bg = (
     ColorClip(SCREEN_SIZE, color=(0, 0, 0))
     .with_start(26.1)
-    .with_duration(1)
-    .with_effects([vfx.CrossFadeIn(1)])
+    .with_duration(0.5)
 )
 
 cat1 = (
@@ -69,9 +68,13 @@ audio = audio_clip("cena5")
 
 subtitle = subtitle_clip("cena5")
 
-clips = [wall, competitive_bg, black_bg, cat1, cat2, cat3, cat4, 
-         sbc_logo, ano1978, cartaz_sbc, pessoas_sbc, obi_logo, 
-         maratona_logo, subtitle] 
+clips = [
+    wall, competitive_bg, black_bg, 
+    cat1, cat2, cat3, cat4, 
+    sbc_logo, ano1978, cartaz_sbc, pessoas_sbc, obi_logo, 
+    maratona_logo, 
+    subtitle
+] 
 
 video = video_clip(clips, audio.mix)
 

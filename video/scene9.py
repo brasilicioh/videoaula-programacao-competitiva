@@ -1,88 +1,71 @@
-from moviepy import vfx, ColorClip # vfx para efeitos crossfadein/out; se necessario, separado por virgula, importe mais coisas
+from moviepy import vfx, ColorClip
 from clips import (
-    subtitle_clip, # para fazer legendas -> ja feito
-    audio_clip, # para fazer o audio -> ja feito
-    cat_clip, # retorna um ImageClip do gato
-    img_clip, # retorna um ImageClip de uma imagem
-    video_clip, # junta todos ImageClip's e retorna um VideoClip
+    subtitle_clip,
+    audio_clip,
+    cat_clip,
+    img_clip,
+    video_clip,
     gif_clip,
-    SCREEN_SIZE # tamanho constante de tela -> Full HD
+    SCREEN_SIZE
 )
 
+black_bg1 = (
+    ColorClip(SCREEN_SIZE, color=(0, 0, 0))
+    .with_start(0)
+    .with_duration(0.5)
+)
 university_background = (
-    img_clip("img/background/room1.png", SCREEN_SIZE, 1, 12.8)
+    img_clip("img/background/room1.png", SCREEN_SIZE, 0.5, 13.3)
     .with_effects([vfx.CrossFadeOut(1)])
 )
+gif1 = (
+    gif_clip("img/imgs/cyberwave.gif", SCREEN_SIZE, 13.8, 9.8)
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
+)
 wall_background = (
-    img_clip("img/background/wall.png", SCREEN_SIZE, 21.2, 12.8)
-    .with_effects([vfx.CrossFadeIn(0.5)])
-    .with_effects([vfx.CrossFadeOut(0.5)])
+    img_clip("img/background/wall.png", SCREEN_SIZE, 23.4, 8.1)
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
+)
+img1 = (
+    img_clip("img/imgs/windows.jpg", SCREEN_SIZE, 31, 7)
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
+)
+black_bg2 = (
+    ColorClip(SCREEN_SIZE, color=(0, 0, 0))
+    .with_start(38)
+    .with_duration(1)
 )
 
-
-
-cat6 = (
+cat1 = (
     cat_clip("cat6", 1, 4.8)
     .with_effects([vfx.CrossFadeIn(1)])
 )
 cat2 = (
     cat_clip("cat2", 5.8, 4.2)
 )
-cat4 = (
+cat3 = (
     cat_clip("cat4", 10, 3.8)
 )
-cat6_1 = (
-    cat_clip("cat6", 23.2, 5.8)
+cat4 = (
+    cat_clip("cat6", 23.4, 7.6)
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
 )
-cat3 = (
-    cat_clip("cat3", 29, 7, position=(150,"center"))
-)
-
-
-
-
-
-gif1 = (
-    gif_clip("img/imgs/cyberwave.gif", SCREEN_SIZE, 13.8, 9.4)
-    .with_effects([vfx.CrossFadeIn(0.8), vfx.CrossFadeOut(0.8)])
-)
-img1 = (
-    img_clip("img/imgs/windows.jpg", SCREEN_SIZE, 29, 7)
+cat5 = (
+    cat_clip("cat3", 31, 7, (150,"center"))
+    .with_effects([vfx.CrossFadeIn(0.5), vfx.CrossFadeOut(0.5)])
 )
 
-black_bg = (
-    ColorClip(SCREEN_SIZE, color=(0, 0, 0))
-    .with_start(36)
-    .with_duration(1)
-)
-black_bg2 = (
-    ColorClip(SCREEN_SIZE, color=(0, 0, 0))
-    .with_start(0)
-    .with_duration(0.5)
-)
+audio = audio_clip("cena9", 1)
 
-
-# aqui, utilize o cat_clip para fazer gatos
-# img_clip para fazer fotos e background
-# se necessario, importe outras coisas para fazer mais clips
-# veja a cena 1 e 2 para tomar como exemplo
-
-# recomendacao: na construcao do video, coloque as variaveis em ordem cronologica
-# se lembre de colocar todas variaveis no array clips seguindo a ordem de prioridade do array
-# ao terminar a codificacao, organize as variaveis em ordem igual a ordem do array
-
-audio = audio_clip("cena9") # pega o cena10.mp3
-
-subtitle = subtitle_clip("cena9") # pega o srt da cena10
+subtitle = subtitle_clip("cena9")
 
 clips = [
-    university_background, wall_background,
-    gif1, img1,
-    cat6, cat4, cat2,cat3, cat6_1,
-    black_bg, black_bg2,
-    subtitle] # adicione nessa lista todos os clips seguindo 
-                   # essa ordem: backgrounds -> cats -> imgs -> subtitle
+    black_bg1, university_background, gif1, wall_background, 
+    img1, black_bg2,
+    cat1, cat2, cat3, cat4, cat5,
+    subtitle
+]
 
-video = video_clip(clips, audio.mix)#.subclipped(0,5) # faz video com o audio e tudo que tiver no array clips
+video = video_clip(clips, audio.mix)
 
-video.write_videofile("clips/cena9.mp4", fps=24) # exporta o audio
+video.write_videofile("clips/cena9.mp4", fps=24)

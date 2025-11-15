@@ -117,11 +117,15 @@ audio = audio_clip("cena3")
 
 subtitle = subtitle_clip("cena3")
 
-clips = [room1_bg, leetcode1_bg, leetcode2_bg, black_bg, school_bg, 
-         cat1, cat2, cat3, cat4, cat5, cat6, cat7, helloworld, io_img, 
-         brainIA, submit_gif, io_gif, io_sheet1, io_sheet2] + \
-         deslikes_array + [time_limit, submissions1, submissions2, 
-         correto, parcial, errado, subtitle]
+clips = [
+    room1_bg, leetcode1_bg, leetcode2_bg, black_bg, school_bg, 
+    cat1, cat2, cat3, cat4, cat5, cat6, cat7, 
+    helloworld, io_img, 
+    brainIA, submit_gif, io_gif, io_sheet1, io_sheet2] + \
+    deslikes_array + [time_limit, submissions1, submissions2, 
+    correto, parcial, errado, 
+    subtitle
+]
 
 video = video_clip(clips, audio.mix)
 

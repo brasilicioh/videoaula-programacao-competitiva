@@ -95,10 +95,14 @@ audio = audio_clip([
 
 subtitle = subtitle_clip("cena4")
 
-clips = [school, room, matrix, wall, cat1, cat2, cat3, cat4, 
-         cat5, question1, question2, tomada] + tomadas + \
-         tomadasX + [c_response, cpp_response, js_response, 
-         py_response, rs_response, c_cpp_car, subtitle]
+clips = [
+    school, room, matrix, wall, 
+    cat1, cat2, cat3, cat4, cat5, 
+    question1, question2, tomada] + tomadas + tomadasX + \
+    [c_response, cpp_response, js_response, py_response, 
+    rs_response, c_cpp_car,
+    subtitle
+]
 
 video = video_clip(clips, audio.mix)
 
